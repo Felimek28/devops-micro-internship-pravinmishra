@@ -2,8 +2,6 @@
 
 This is a complete step-by-step guide to install Visual Studio Code (VS Code) and connect it with your GitHub account.
 
-VS Code is the main code editor you will use throughout this DevOps Micro-Internship for writing code, managing Git repositories, and completing assignments.
-
 ---
 
 If you do not have VS Code installed or have not connected it with GitHub yet, follow this guide carefully and complete all the steps.
