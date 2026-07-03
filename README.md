@@ -13,11 +13,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | Felix Emeka Nwobodo|
+| **LinkedIn** | [Felix Emeka Nwobodo](www.linkedin.com/in/felix-nwobodo-2a191856pravin-mishra-aws-trainer/) |
+| **Location** | Enugu, Nigeria |
+| **Background** | Cloud, DevOps & AI Intern|
+| **Goal** | To work as a DevOps/Cloud  professional |
 
 ---
 
