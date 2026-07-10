@@ -46,6 +46,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 ![alt text](<Screenshot of customized CLAUDEmd file.png>)
 
+
 # Task 4 — Test the After State
 
 ## Goal

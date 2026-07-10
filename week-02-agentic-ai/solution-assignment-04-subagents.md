@@ -90,6 +90,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 ![alt text](<The full cost optimization report.png>)
 
+
 # Submission Instructions
 
 - Ensure all agent files are committed in `.claude/agents/`

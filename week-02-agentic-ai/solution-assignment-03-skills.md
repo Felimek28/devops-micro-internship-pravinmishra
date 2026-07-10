@@ -68,6 +68,7 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 ![alt text](<terraform plan failed on claude code.png>)
 
+
 # Submission Instructions
 
 - Ensure `.claude/skills/` folder and all skill files are committed to your GitHub repository

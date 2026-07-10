@@ -46,17 +46,16 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
-
----
+![alt text](<medium blog post.png>)
 
 ### Submission Field
 
 Blog Link:
 
-`__________________________________________`
 
----
+https://medium.com/@felixemeka28/reflection-week-2-7ce3025519a9
+
+
 
 # Task 2 — Create LinkedIn Post
 

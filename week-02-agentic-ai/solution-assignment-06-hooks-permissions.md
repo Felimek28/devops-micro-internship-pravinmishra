@@ -48,6 +48,7 @@ Extend `settings.json` with a PreToolUse hook that blocks dangerous Bash command
 ![alt text](<full settings json with permissions and hooks.png>)
 
 
+
 # Task 4 — Test the UserPromptSubmit Hook
 
 ## Goal
