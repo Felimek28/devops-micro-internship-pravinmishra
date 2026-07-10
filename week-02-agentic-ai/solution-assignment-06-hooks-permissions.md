@@ -83,9 +83,8 @@ Verify that dangerous commands are intercepted before execution by the PreToolUs
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
-
 https://github.com/Felimek28/Ultimate-Agentic-DevOps-with-Claude-Code.git
+
 
 
 # Completion Checklist
