@@ -226,34 +226,34 @@ Choose books that improve:
 ## Book List
 
 1.Big Picture by Ben Carson and Gregg Lewis 
-screenshots\the-big-picture.jpg.webp
+![alt text](the-big-picture.jpg.webp)
 
 2.Power of Discipline by Daniel Walter
- screenshots/The power of discipline by Daniel Walter.jpg
+ ![alt text](<The power of discipline by Daniel Walter-1.jpg>)
 
 3.You Become What You Think About by  Vic Johnson
-screenshots/You become what you think by Vic Johnson.jpg
+![alt text](<You become what you think by Vic Johnson.jpg>)
 
 4.The Power of Positive Thinking by Norman Vincent Peale
-screenshots/The Power of Positive Thinking by Norman Vincent Peale.jpg
+![alt text](<The Power of Positive Thinking by Norman Vincent Peale.jpg>)
 
 5.Think Big by Ben Carson
-screenshots/Think Big By Ben Carson.jpg
+![alt text](<Think Big By Ben Carson.jpg>)
 
 6.Ultimate Git and GitHub for Modern Software Development  by  Pravin Mishra
-![alt text](<Ultimate Git and GitHub For Modern Software Development By Pravin Mishra.jpg>)
+![screenshots](<Ultimate Git and GitHub For Modern Software Development By Pravin Mishra.jpg>)
 
 7.Mind Management, Not Time Management By David Kadavy
-![alt text](<Mind Management Not Time Management By David  Kadavy.jpg>)
+![screenshots](<Mind Management Not Time Management By David  Kadavy.jpg>)
 
 8.Change your Thinking ,Change your Life by Brian Tracy
 ![screenshots](<Change Your Thinking Change Your Life By Brian Tracy.jpg>)
 
 9.The Magic of Thinking Big by David J. Schwartz
-![alt text](<The Magic Of Thinking Big By David J. Schwartz.jpg>)
+![screenshots](<The Magic Of Thinking Big By David J. Schwartz.jpg>)
 
 10.Brain Power by Victor Menderez
-![alt text](<Brain Power By Victor Menderez-1.jpg>)
+![screenshot](<Brain Power By Victor Menderez-1.jpg>)
 
 
 # Assignment 6. What are the things you will measure regularly in your life and career?
@@ -389,12 +389,12 @@ In the coming week starting with a live session on Saturday, I shall start doing
 
 Paste your LinkedIn post link here:
 
-https://www.linkedin.com/posts/felix-nwobodo-2a191856_successmindset-devops-cloud-share-7478509611529129986-AZUW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE
+*https://www.linkedin.com/posts/felix-nwobodo-2a191856_successmindset-devops-cloud-share-7478509611529129986-AZUW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE*
 
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL:(https://www.linkedin.com/posts/felix-nwobodo-2a191856_successmindset-devops-cloud-share-7478509611529129986-AZUW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE)*  
+- LinkedIn Post URL:*(https://www.linkedin.com/posts/felix-nwobodo-2a191856_successmindset-devops-cloud-share-7478509611529129986-AZUW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE)*  
 
 - Blog / Medium : **https://medium.com/@felixemeka28/from-broadcast-control-rooms-to-cloud-infrastructure-how-felix-emeka-built-career-across-two-09ebc4af885d**  
 

@@ -20,9 +20,7 @@ Create the required `.claude/skills/` directory structure for all skills.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
-Add your screenshot here.
-
----
+![alt text](<skills folder created.png>)
 
 # Task 2 — Add the Skill Files
 
@@ -34,15 +32,13 @@ Place all required skill files into their correct directories and verify their c
 
 #### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 
-Add your screenshot here.
+![alt text](<Scaffold-terraform showing SKILLmd and template.png>)
 
 ---
 
 #### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
-Add your screenshot here.
-
----
+![alt text](<tf-plan showing frontmatter and allowed tools.png>)
 
 # Task 3 — Run /scaffold-terraform
 
@@ -54,15 +50,11 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 #### Screenshot 4 — Claude's response showing the scaffold complete with the file list
 
-Add your screenshot here.
-
----
+![alt text](<Claude's response showing the scaffold complete with the file list1.png>)
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
-Add your screenshot here.
-
----
+![alt text](<side bar showing terraform files created.png>)
 
 # Task 4 — Run terraform init and /tf-plan
 
@@ -74,9 +66,7 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 #### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
-Add your screenshot here.
-
----
+![alt text](<terraform plan failed on claude code.png>)
 
 # Submission Instructions
 
@@ -90,14 +80,13 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+https://github.com/Felimek28/Ultimate-Agentic-DevOps-with-Claude-Code.git
+
 
 ## LinkedIn post URL
 
-Paste your forked repository URL here:
+https://www.linkedin.com/posts/felix-nwobodo-2a191856_dmibypravinmishra-devops-agenticai-activity-7481002773594034177-L6XA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE
 
-`__________________________`
----
 
 # Completion Checklist
 
