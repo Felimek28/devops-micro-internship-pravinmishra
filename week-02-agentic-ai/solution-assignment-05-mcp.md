@@ -49,6 +49,7 @@ Store your GitHub token securely in `.claude/settings.local.json` and ensure it 
 ![alt text](<settings local json.png>)  
 
 
+
 # Task 4 — Verify the Connection with /mcp
 
 ## Goal

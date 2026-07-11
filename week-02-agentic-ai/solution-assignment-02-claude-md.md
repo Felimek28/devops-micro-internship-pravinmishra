@@ -61,6 +61,7 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 ![alt text](<Claude response after customizing CLAUDE.md.png>)
 
 
+
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
 ![alt text](<Claude rejected add a React component.png>)

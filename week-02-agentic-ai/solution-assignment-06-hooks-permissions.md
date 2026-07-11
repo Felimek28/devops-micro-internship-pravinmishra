@@ -87,6 +87,7 @@ https://github.com/Felimek28/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 
 
+
 # Completion Checklist
 
 - [ ] `settings.json` created with permissions block
