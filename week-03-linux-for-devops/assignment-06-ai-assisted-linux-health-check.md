@@ -420,9 +420,7 @@ https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-linux-bash-ugcPost-
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
-`__________________________`
-
----
+https://github.com/Felimek28/devops-micro-internship-pravinmishra.git
 
 # Submission Instructions
 
