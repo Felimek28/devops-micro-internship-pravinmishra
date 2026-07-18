@@ -410,7 +410,13 @@ Verify: I confirmed the recovery by verifying that systemctl is-active nginx ret
 
 Paste your LinkedIn post URL here:
 
+<<<<<<< HEAD:week-03-linux-for-devops/assignment-06-ai-assisted-linux-health-check.md
 https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-linux-bash-ugcPost-7484039694201044993-NZbS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE
+=======
+`Add your URL here`
+
+---
+>>>>>>> upstream/main:week-03-linux-and-bash-for-devops/assignment-06-ai-assisted-linux-health-check.md
 
 #### Screenshot — Published LinkedIn post
 
@@ -418,7 +424,15 @@ https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-linux-bash-ugcPost-
 
 # GitHub Repository URL
 
+Paste the URL of your GitHub folder or repository containing the assignment files here:
+
+<<<<<<< HEAD:week-03-linux-for-devops/assignment-06-ai-assisted-linux-health-check.md
 https://github.com/Felimek28/devops-micro-internship-pravinmishra.git
+=======
+`Add your URL here`
+
+---
+>>>>>>> upstream/main:week-03-linux-and-bash-for-devops/assignment-06-ai-assisted-linux-health-check.md
 
 # Submission Instructions
 
