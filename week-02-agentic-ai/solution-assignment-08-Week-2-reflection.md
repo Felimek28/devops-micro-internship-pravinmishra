@@ -46,17 +46,17 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
-
----
+![alt text](<medium blog post.png>)
 
 ### Submission Field
 
 Blog Link:
 
-`__________________________________________`
 
----
+https://medium.com/@felixemeka28/reflection-week-2-7ce3025519a9
+
+
+
 
 # Task 2 — Create LinkedIn Post
 
@@ -92,9 +92,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
-
----
+![alt text](<Linkedin post  for assigment 8.png>)
 
 ### Submission Field
 
@@ -108,7 +106,7 @@ Paste your LinkedIn post content here
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+`https://www.linkedin.com/posts/felix-nwobodo-2a191856_agenticai-claudecode-artificialintelligence-activity-7481411141731143681-Ve8_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE`
 
 ---
 

@@ -33,7 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+Answer: I believe success in life is a function of grace and hardwork, but on the contrary, most people, especially the successful ones, believe it is by hard work. Yes hard work is important but not entirely the determining factor for anyone to succeed in life. So for me God factor is as important as hardwork
 
 ---
 
@@ -55,11 +55,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Practice makes perfect. 
 
 ### Evidence from my life
 
-Add your answer here...
+I have through practices confirmed that trying anything consistently and regularly will make you master it or become perfect at it. Most skills I am good at right now, came as a result of consistent practices despite starting as a novice
 
 ---
 
@@ -67,11 +67,12 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Nothing Stops a determined mind
 
 ### Evidence from my life
 
-Add your answer here...
+Yes a determined mind will surely succeed irrespective of any challenge. I have confirmed that  once you are determined to achieve anything and you set your mind on it , you will surely excel
+
 
 ---
 
@@ -79,11 +80,12 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Failure is actually part of the process of succeeding
 
 ### Evidence from my life
 
-Add your answer here...
+Anyone who achieved significant success in life has encountered failure in one way or the other in their lives. I am not an exception to this objective truth as I have failed in many occasions while trying to succeed but I don’t allow failure deter me
+
 
 ---
 
@@ -135,14 +137,37 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+From Broadcast Control Rooms to Cloud Infrastructure: How Felix Emeka Built  Career Across Two Worlds - Reflecting on his 7 years as a DevOps engineer
+
+When colleagues first met Felix Emeka, many knew him as the engineer who kept radio stations on the air. Today, they know him as the engineer who keeps cloud platforms online.
+His career has become an example of how technical professionals can successfully reinvent themselves without abandoning their foundations. Rather than viewing broadcasting and cloud computing as separate disciplines, Felix combined the operational discipline of broadcast engineering with modern DevOps practices to build resilient, automated, and scalable systems.
+
+His transition did not happen overnight. Several years earlier, Felix immersed himself in DevOps engineering, learning Linux, networking, cloud computing, containerization, infrastructure as code, CI/CD, monitoring, and security. What started as a personal challenge gradually became professional expertise.He spent countless hours building projects, troubleshooting failures, and documenting solutions until automation became second nature.
+
+Today,his portfolio reflects that journey. He has designed highly available cloud infrastructures across AWS, Azure, automated deployments using Terraform and Ansible, orchestrated containerized applications with Kubernetes, and built CI/CD pipelines that allow development teams to release software quickly and safely. 
+
+Yet his impact extends beyond technology.
+As a way of giving back to engineering communities, his guides on Linux administration, networking, cloud architecture, and DevOps workflows are used by aspiring engineers preparing for their first cloud roles. Mentorship has become one of the defining aspects of his career. He is also contributing to the growth of Africa's cloud engineering ecosystem by encouraging more engineers to pursue practical, hands-on technical education.
+
+Organizations value him not only because he understands cloud platforms, but because he understands operations. His background enables him to think beyond writing code. He anticipates failure, designs for resilience, and builds systems that continue functioning when unexpected problems occur. 
+
+As cloud computing, automation, artificial intelligence, and platform engineering continue to reshape the technology landscape, Felix Emeka appears well positioned for the next chapter. 
+
+The engineer who once kept radio stations on the air is now helping build the digital infrastructure that keeps businesses running. And for Felix Emeka, it seems the journey is only beginning.
+
+P.S. This is part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community https://lnkd.in/dzC9gZrq
+Many thanks to Co-mentors Joy Ukpabi Faith Samson and Lead Co-mentor Anjana Muthunayake for their  support always
+
+My medium blog link https://lnkd.in/e7gD9VTn
 
 ### Public Link
 
 Paste your link here:
+Medium blog link
+https://medium.com/@felixemeka28/from-broadcast-control-rooms-to-cloud-infrastructure-how-felix-emeka-built-career-across-two-09ebc4af885d
 
-`__________________________`
-
+Linkedin Post link
+https://www.linkedin.com/posts/felix-nwobodo-2a191856_from-broadcast-control-rooms-to-cloud-infrastructure-activity-7478123964666462208-fuNh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE
 ---
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
@@ -173,7 +198,8 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+Yes I have and the emotions  is that of a mixed feelings as it has helped me saved time and reduced stress which is a feeling of happiness but  later on my conscience will start pricking me ,making me  feel a strong sense of guilt, shame, or moral discomfort because I have done something wrong.
+
 
 ---
 
@@ -199,18 +225,36 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1.Big Picture by Ben Carson and Gregg Lewis 
+![alt text](the-big-picture.jpg.webp)
 
----
+2.Power of Discipline by Daniel Walter
+ ![alt text](<The power of discipline by Daniel Walter-1.jpg>)
+
+3.You Become What You Think About by  Vic Johnson
+![alt text](<You become what you think by Vic Johnson.jpg>)
+
+4.The Power of Positive Thinking by Norman Vincent Peale
+![alt text](<The Power of Positive Thinking by Norman Vincent Peale.jpg>)
+
+5.Think Big by Ben Carson
+![alt text](<Think Big By Ben Carson.jpg>)
+
+6.Ultimate Git and GitHub for Modern Software Development  by  Pravin Mishra
+![screenshots](<Ultimate Git and GitHub For Modern Software Development By Pravin Mishra.jpg>)
+
+7.Mind Management, Not Time Management By David Kadavy
+![screenshots](<Mind Management Not Time Management By David  Kadavy.jpg>)
+
+8.Change your Thinking ,Change your Life by Brian Tracy
+![screenshots](<Change Your Thinking Change Your Life By Brian Tracy.jpg>)
+
+9.The Magic of Thinking Big by David J. Schwartz
+![screenshots](<The Magic Of Thinking Big By David J. Schwartz.jpg>)
+
+10.Brain Power by Victor Menderez
+![screenshot](<Brain Power By Victor Menderez-1.jpg>)
+
 
 # Assignment 6. What are the things you will measure regularly in your life and career?
 
@@ -237,18 +281,18 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+Here are a few things I will measure regularly to stay aligned with my goals:
 
----
+Going forward I will be mindful of my learning. I will measure my learning progress and skills acquired consequently.
+
+I will measure my output by carrying out tasks and project as a proof of my progress 
+I will measure my  Wake-up & sleep time , because health is key
+
+I will measure my learning time and ensure to maintain a consistent and doable learning period.
+
+I will measure my financial spending by ensuring I don’t waste money on what is not necessary
+
+
 
 # Assignment 7. Brain Dump + 5-Month System Plan
 
@@ -272,7 +316,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
+Yes
 
 ---
 
@@ -290,19 +334,20 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+Mon-Fri: I have dedicated 2hours every day for my DevOps learning. During this time, I will learn for 1 hour and used the remaining 1 hour to practice. 
+Sat:The Saturday DMI live session is a must attend for me. 
+Sun:I will use the two hours on Sunday to summarize what I learnt for the week
 
----
 
 ### Focus Blocks
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+I will start from Sunday and work on it till Friday. Atleast 2 hours each day during the day
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+Atleast 6 session per week
 
 ---
 
@@ -315,37 +360,43 @@ Examples:
 * Environment setup
 
 #### My Distraction Rules
+One task at a time
+Every task has a timer
+No entertainment or pleasure until I completes my planned work
 
-Add your answer here...
-
----
 
 # Reflection – Week 1
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+This week, I realized that my success depends less on learning new things and more on protecting my focus.
+I don't struggle because I lack the ability to understand difficult concepts. I struggle when I allow distractions, unnecessary task switching, or unplanned activities to take time away from my most important work.
+I also noticed that when I commit to one task and give it my full attention, I make meaningful progress much faster than I expected.
+Going forward, I want to treat my attention as one of my most valuable resources. I'll prioritize deep work, reduce distractions, and measure my days by the progress I make toward my long-term goals rather than by how busy I feel.
+This week reminded me that consistent focus, practiced every day, is what will move me closer to the person I want to become.
+
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+One weakness I experienced was my inability to start my assignment in time . This has made me struggle on the last day of submission which is not supposed to be.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+In the coming week starting with a live session on Saturday, I shall start doing my learning immediately after the live session. This will be accompanied by a serious and timely effort towards doing the week 2 assignment .
+
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+*https://www.linkedin.com/posts/felix-nwobodo-2a191856_successmindset-devops-cloud-share-7478509611529129986-AZUW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE*
 
----
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL:*(https://www.linkedin.com/posts/felix-nwobodo-2a191856_successmindset-devops-cloud-share-7478509611529129986-AZUW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE)*  
+
+- Blog / Medium : **https://medium.com/@felixemeka28/from-broadcast-control-rooms-to-cloud-infrastructure-how-felix-emeka-built-career-across-two-09ebc4af885d**  
 
 ---
 
