@@ -82,22 +82,13 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 Paste your forked repository URL here:
 
-<<<<<<< HEAD:week-02-agentic-ai/solution-assignment-03-skills.md
 https://github.com/Felimek28/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
-=======
-`Add your URL here`
->>>>>>> upstream/main:week-02-agentic-ai/assignment-03-skills.md
 
 ## LinkedIn post URL
 
 https://www.linkedin.com/posts/felix-nwobodo-2a191856_dmibypravinmishra-devops-agenticai-activity-7481002773594034177-L6XA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE
 
-<<<<<<< HEAD:week-02-agentic-ai/solution-assignment-03-skills.md
-=======
-`Add your URL here`
----
->>>>>>> upstream/main:week-02-agentic-ai/assignment-03-skills.md
 
 # Completion Checklist
 

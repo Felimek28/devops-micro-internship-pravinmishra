@@ -104,13 +104,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 Paste your forked repository URL here:
 
-<<<<<<< HEAD:week-02-agentic-ai/solution-assignment-04-subagents.md
 https://github.com/Felimek28/Ultimate-Agentic-DevOps-with-Claude-Code.git
-=======
-`Add your URL here`
-
----
->>>>>>> upstream/main:week-02-agentic-ai/assignment-04-subagents.md
 
 # Completion Checklist
 

@@ -85,7 +85,7 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 Paste your Linkedin post link here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/felix-nwobodo-2a191856_dmibypravinmishra-devops-agenticai-activity-7481002773594034177-L6XA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE
 
 ---
 
@@ -93,14 +93,9 @@ Paste your Linkedin post link here:
 
 Paste your forked repository URL here:
 
-<<<<<<< HEAD:week-02-agentic-ai/solution-assignment-07-memory.md
 https://github.com/Felimek28/Ultimate-Agentic-DevOps-with-Claude-Code.git 
 
 
-
-=======
-`Add your URL here`
->>>>>>> upstream/main:week-02-agentic-ai/assignment-07-memory.md
 
 ---
 

@@ -20,8 +20,8 @@ Create the `.claude` directory structure required for team-level Claude Code con
 
 #### Screenshot 1 — `.claude` folder structure visible in VS Code Explorer
 
-![alt text](<settings.json showing allow and deny.png>)
 
+![alt text](<VS Code sidebar showing claude and agents with all 3 files.png>)
 
 # Task 2 — Create the UserPromptSubmit Hook Script
 
@@ -59,7 +59,7 @@ Create a hook that runs after Claude executes a Bash command and logs selected T
 
 #### Screenshot 4 — `post-tool-logger.sh` open in VS Code showing the hook script
 
-![alt text](<blocked prompt due to UserPromptSubmit hook.png>)
+![alt text](<setting json showing hooks-1.png>)
 
 # Task 5 — Configure settings.json to Connect Hook Scripts
 
@@ -71,7 +71,7 @@ Configure Claude Code permissions and connect the hook scripts created in the pr
 
 #### Screenshot 5 — `settings.json` open in VS Code showing permissions and hooks configuration
 
-![alt text](<PreToolUse hook blocking terraform destroy.png>)
+![alt text](<settings.json showing allow and deny-1.png>)
 
 # Task 6 — Test the UserPromptSubmit Hook
 
@@ -83,6 +83,7 @@ Prove the prompt-level hook works by typing a destructive prompt and verifying i
 
 #### Screenshot 6 — UserPromptSubmit hook blocking the destructive prompt
 
+![alt text](<blocked prompt due to UserPromptSubmit hook.png>)
 ---
 
 # Task 7 — Test the PreToolUse Hook
@@ -94,7 +95,7 @@ Prove the tool-level hook works by asking Claude to execute a dangerous Bash com
 ### Evidence
 
 #### Screenshot 7 — PreToolUse hook blocking terraform destroy
-
+![alt text](<PreToolUse hook blocking terraform destroy.png>)
 ---
 
 # Task 8 — Test the PostToolUse Logging Hook
@@ -106,16 +107,17 @@ Prove the logging hook runs after a successful command execution and records Ter
 ### Evidence
 
 #### Screenshot 8 — Claude running terraform validate successfully
+![alt text](<Run terraform validate.png>)
+
 
 #### Screenshot 9 — `.claude/deploy.log` showing the logged command
-
+![alt text](.claude.deploy.log.png)
 ---
 
 # Submission Instructions
 
 Complete all tasks in sequence.
 
-<<<<<<< HEAD
 ---
 
 ## GitHub Repository URL
@@ -123,10 +125,8 @@ Complete all tasks in sequence.
 https://github.com/Felimek28/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 
-=======
 Your submission must include:
 - All 9 required screenshots
->>>>>>> upstream/main
 
 
 # Completion Checklist

@@ -166,13 +166,10 @@ Paste your link here:
 Medium blog link
 https://medium.com/@felixemeka28/from-broadcast-control-rooms-to-cloud-infrastructure-how-felix-emeka-built-career-across-two-09ebc4af885d
 
-<<<<<<< HEAD:week-01-success-mindset/README.md
 Linkedin Post link
 https://www.linkedin.com/posts/felix-nwobodo-2a191856_from-broadcast-control-rooms-to-cloud-infrastructure-activity-7478123964666462208-fuNh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE
-=======
-`Add your URL here`
 
->>>>>>> upstream/main:week-01-success-mindset/assignment-01-mindset-os.md
+
 ---
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
@@ -231,34 +228,44 @@ Choose books that improve:
 ## Book List
 
 1.Big Picture by Ben Carson and Gregg Lewis 
-![alt text](the-big-picture.jpg.webp)
+
+![image](./screenshots/the-big-picture.jpg.webp)
 
 2.Power of Discipline by Daniel Walter
- ![alt text](<The power of discipline by Daniel Walter-1.jpg>)
+
+ ![alt text](./screenshots/The%20power%20of%20discipline%20by%20Daniel%20Walter.jpg)
 
 3.You Become What You Think About by  Vic Johnson
-![alt text](<You become what you think by Vic Johnson.jpg>)
+
+![alt text](./screenshots/You%20become%20what%20you%20think%20by%20Vic%20Johnson.jpg)
 
 4.The Power of Positive Thinking by Norman Vincent Peale
-![alt text](<The Power of Positive Thinking by Norman Vincent Peale.jpg>)
+
+![alt text](./screenshots/The%20Power%20of%20Positive%20Thinking%20by%20Norman%20Vincent%20Peale.jpg)
 
 5.Think Big by Ben Carson
-![alt text](<Think Big By Ben Carson.jpg>)
+
+![alt text](./screenshots/Think%20Big%20By%20Ben%20Carson.jpg)
 
 6.Ultimate Git and GitHub for Modern Software Development  by  Pravin Mishra
-![screenshots](<Ultimate Git and GitHub For Modern Software Development By Pravin Mishra.jpg>)
+
+![screenshots](./screenshots/Ultimate%20Git%20and%20GitHub%20For%20Modern%20Software%20Development%20By%20Pravin%20Mishra.jpg)
 
 7.Mind Management, Not Time Management By David Kadavy
-![screenshots](<Mind Management Not Time Management By David  Kadavy.jpg>)
+
+![screenshots](./screenshots/Mind%20Management%20Not%20Time%20Management%20By%20David%20%20Kadavy.jpg)
 
 8.Change your Thinking ,Change your Life by Brian Tracy
-![screenshots](<Change Your Thinking Change Your Life By Brian Tracy.jpg>)
+
+![screenshots](./screenshots/Change%20Your%20Thinking%20Change%20Your%20Life%20By%20Brian%20Tracy.jpg)
 
 9.The Magic of Thinking Big by David J. Schwartz
-![screenshots](<The Magic Of Thinking Big By David J. Schwartz.jpg>)
+
+![screenshots](./screenshots/The%20Magic%20Of%20Thinking%20Big%20By%20David%20J.%20Schwartz.jpg)
 
 10.Brain Power by Victor Menderez
-![screenshot](<Brain Power By Victor Menderez-1.jpg>)
+
+![screenshot](./screenshots/Brain%20Power%20By%20Victor%20Menderez.jpg)
 
 
 # Assignment 6. What are the things you will measure regularly in your life and career?
