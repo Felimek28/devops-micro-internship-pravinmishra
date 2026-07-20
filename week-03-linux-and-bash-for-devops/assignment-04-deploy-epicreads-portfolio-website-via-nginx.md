@@ -107,13 +107,7 @@ Verify the deployed website and Nginx service are healthy.
 
 Paste your LinkedIn post URL here:
 
-<<<<<<< HEAD:week-03-linux-for-devops/assignment-04-deploy-epicreads-portfolio-website-via-nginx.md
 https://lnkd.in/p/dwcTGEug
-=======
-`Add your URL here`
-
----
->>>>>>> upstream/main:week-03-linux-and-bash-for-devops/assignment-04-deploy-epicreads-portfolio-website-via-nginx.md
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 

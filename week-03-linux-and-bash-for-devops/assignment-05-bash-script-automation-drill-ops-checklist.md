@@ -382,13 +382,7 @@ It uses if-else conditionals with -d and -f to check if the required directory a
 
 Paste your LinkedIn post URL here:
 
-<<<<<<< HEAD:week-03-linux-for-devops/assignment-05-bash-script-automation-drill-ops-checklist.md
 https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-linux-bash-ugcPost-7483915409818218497-4eA-/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE
-=======
-`Add your URL here`
-
----
->>>>>>> upstream/main:week-03-linux-and-bash-for-devops/assignment-05-bash-script-automation-drill-ops-checklist.md
 
 #### Screenshot — Published LinkedIn post
 

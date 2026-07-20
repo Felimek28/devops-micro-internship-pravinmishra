@@ -125,11 +125,7 @@ Verify the React application is publicly accessible via the server's public IP.
 
 Paste your LinkedIn post URL here:
 
-<<<<<<< HEAD:week-03-linux-for-devops/assignment-02-deploy-a-react-app-on-ubuntu-vm-using-nginx.md
 https://lnkd.in/p/dCsc8c9V
-=======
-`Add your URL here`
->>>>>>> upstream/main:week-03-linux-and-bash-for-devops/assignment-02-deploy-a-react-app-on-ubuntu-vm-using-nginx.md
 
 ---
 

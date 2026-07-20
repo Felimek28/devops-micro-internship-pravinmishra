@@ -308,13 +308,7 @@ Cloud resources should be stopped or terminated when they are no longer needed t
 
 Paste your LinkedIn post URL here:
 
-<<<<<<< HEAD:week-03-linux-for-devops/assignment-03-production-maintenance-drill-ops-checklist.md
 https://lnkd.in/p/dHukeGgv
-=======
-`Add your URL here`
-
----
->>>>>>> upstream/main:week-03-linux-and-bash-for-devops/assignment-03-production-maintenance-drill-ops-checklist.md
 
 #### Screenshot — Published LinkedIn post
 

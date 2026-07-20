@@ -401,18 +401,15 @@ In the coming week starting with a live session on Saturday, I shall start doing
 
 Paste your LinkedIn post link here:
 
-<<<<<<< HEAD:week-01-success-mindset/README.md
-*https://www.linkedin.com/posts/felix-nwobodo-2a191856_successmindset-devops-cloud-share-7478509611529129986-AZUW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE*
-=======
-`Add your URL here`
->>>>>>> upstream/main:week-01-success-mindset/assignment-01-mindset-os.md
+https://www.linkedin.com/posts/felix-nwobodo-2a191856_successmindset-devops-cloud-share-7478509611529129986-AZUW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE
 
 
 ## 10. Proof of Work
 
 - LinkedIn Post URL:*(https://www.linkedin.com/posts/felix-nwobodo-2a191856_successmindset-devops-cloud-share-7478509611529129986-AZUW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE)*  
 
-- Blog / Medium : **https://medium.com/@felixemeka28/from-broadcast-control-rooms-to-cloud-infrastructure-how-felix-emeka-built-career-across-two-09ebc4af885d**  
+- Blog / Medium :
+ https://medium.com/@felixemeka28/from-broadcast-control-rooms-to-cloud-infrastructure-how-felix-emeka-built-career-across-two-09ebc4af885d
 
 ---
 
