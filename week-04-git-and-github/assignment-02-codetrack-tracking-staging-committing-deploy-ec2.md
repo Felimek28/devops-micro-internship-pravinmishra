@@ -20,15 +20,12 @@ Confirm that Git works and that you are inside the correct `CodeTrack` repositor
 
 #### Screenshot 1 — Output of `pwd` showing you're inside `CodeTrack`
 
-Add your screenshot here.
+![alt text](<Output of pwd showing you're inside CodeTrack.png>)
 
----
 
 #### Screenshot 2 — Output of `git status` showing no "not a git repository" error
 
-Add your screenshot here.
-
----
+![alt text](<Output of git status showing no not a git repository error.png>)
 
 # Task 2 — Create index.html and style.css
 
@@ -40,9 +37,7 @@ Create the two starter UI files inside `CodeTrack`.
 
 #### Screenshot 3 — Output of `ls` showing `index.html` and `style.css`
 
-Add your screenshot here.
-
----
+![alt text](<Output of ls showing index.html and style.css.png>)
 
 # Task 3 — Add Starter Content
 
@@ -54,9 +49,9 @@ Copy the provided starter HTML and CSS content into your local `index.html` and 
 
 #### Screenshot 4 — Your editor showing the contents of `index.html` and `style.css`
 
-Add your screenshot here.
+![alt text](<My editor showing the contents of index.html.png>)
 
----
+![alt text](<My editor showing the contents of style.css.png>)
 
 # Task 4 — Track and Stage Files Correctly
 
@@ -68,15 +63,11 @@ Confirm both files show as untracked, then stage them individually with `git add
 
 #### Screenshot 5 — Output of `git status` showing both files as untracked
 
-Add your screenshot here.
-
----
+![alt text](<Output of git status showing both files as untracked.png>)
 
 #### Screenshot 6 — Output of `git status` showing both files staged under "Changes to be committed"
 
-Add your screenshot here.
-
----
+![alt text](<Output of git status showing both files staged under Changes to be committed.png>)
 
 # Task 5 — Create the First Commit (Clean Initial Commit)
 
@@ -88,15 +79,12 @@ Commit the staged starter files using the message `Initial UI scaffold: add inde
 
 #### Screenshot 7 — Output of `git commit`
 
-Add your screenshot here.
+![alt text](<output of first git commit for codetrack.png>)
 
----
 
 #### Screenshot 8 — Output of `git log --oneline` showing the first commit
 
-Add your screenshot here.
-
----
+![alt text](<Output of git log --oneline showing the first commit.png>)
 
 # Task 6 — Modify index.html and Create a Second Commit
 
@@ -108,27 +96,20 @@ Follow the instruction comment inside `index.html` to update the Student Name an
 
 #### Screenshot 9 — Browser showing the updated page with your Student Name and Group Name visible
 
-Add your screenshot here.
-
----
+![alt text](<Browser showing the updated page with your Student Name and Group Name visible.png>)
 
 #### Screenshot 10 — Output of `git status` showing `index.html` as modified
 
-Add your screenshot here.
-
----
+![alt text](<Output of git status showing index.html as modified 2.png>)
 
 #### Screenshot 11 — Output of `git commit`
 
-Add your screenshot here.
+![alt text](<output of git commit.png>)
 
----
 
 #### Screenshot 12 — Output of `git log --oneline` showing two commits
 
-Add your screenshot here.
-
----
+![alt text](<Output of git log --oneline for second commit.png>)
 
 # Task 7 — Deploy to EC2 with Nginx (Static Website)
 
@@ -140,21 +121,18 @@ Install and start Nginx on your EC2 instance, then copy `index.html` and `style.
 
 #### Screenshot 13 — Output showing Nginx `active (running)`
 
-Add your screenshot here.
+![alt text](<Output showing Nginx active running.png>)
 
----
 
 #### Screenshot 14 — Output of `curl -I http://localhost` showing `HTTP/1.1 200 OK`
 
-Add your screenshot here.
 
----
+![alt text](<Output of curl -I  showing HTTP 200 OK-1.png>)
+
 
 #### Screenshot 15 — Browser showing the CodeTrack site loaded at `http://<EC2_PUBLIC_IP>`, with your Full Name and Group Name visible
 
-Add your screenshot here.
-
----
+![alt text](<browser showing CodeTrack.png>)
 
 # LinkedIn Post (Required)
 
@@ -164,15 +142,11 @@ Add your screenshot here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
-
----
+https://lnkd.in/p/emtSSs2c
 
 #### Screenshot — LinkedIn post showing the deployed CodeTrack application
 
-Add your screenshot here.
-
----
+![alt text](<Linkedin post for codetrack assignment 2.png>)
 
 # Submission Instructions
 

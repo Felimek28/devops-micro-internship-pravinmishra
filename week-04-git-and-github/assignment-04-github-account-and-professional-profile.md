@@ -20,15 +20,15 @@ Confirm that you have a working GitHub account and can access your GitHub dashbo
 
 #### Screenshot 1 — GitHub dashboard or Home page showing you're signed in, with your username visible
 
-Add your screenshot here.
 
----
+![alt text](<GitHub dashboard or Home page showing you're signed in, with your username visible.png>)
+
 
 #### Screenshot 2 (Optional but Recommended) — Your GitHub profile with `https://github.com/<username>` visible in the browser address bar
 
-Add your screenshot here.
 
----
+![alt text](<Your GitHub profile with github.com username visible in the browser address bar.png>)
+
 
 # Task 2 — Explore GitHub Like a Professional
 
@@ -40,21 +40,20 @@ Browse Trending, search for a public project, star at least one repository, and 
 
 #### Screenshot 3 — GitHub Trending page visible in the browser
 
-Add your screenshot here.
 
----
+![alt text](<GitHub Trending page visible in the browser.png>)
+
 
 #### Screenshot 4 — A repository page showing the Star button in the Starred state
 
-Add your screenshot here.
 
----
+![alt text](<A repository page showing the Star button in the Starred state.png>)
+
 
 #### Screenshot 5 — Your forked repository page with your username and repository name visible in the URL
 
-Add your screenshot here.
+![alt text](<Your forked repository page with your username and repository name visible in the URL.png>)
 
----
 
 # Task 3 — Update Your GitHub Profile (Professional Setup)
 
@@ -66,9 +65,8 @@ Add a professional bio to your GitHub profile — and optionally your location, 
 
 #### Screenshot 6 — Your public GitHub profile showing your username and professional bio
 
-Add your screenshot here.
+![alt text](<git hub bio.png>)
 
----
 
 # Submission Instructions
 
@@ -82,9 +80,8 @@ Add your screenshot here.
 
 Paste your GitHub profile URL here:
 
-`Add your URL here`
+https://github.com/Felimek28
 
----
 
 # Completion Checklist
 

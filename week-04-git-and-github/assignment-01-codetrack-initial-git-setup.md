@@ -20,23 +20,18 @@ Create a `CodeTrack` project folder and initialize it as a Git repository.
 
 #### Screenshot 1 — Output of `git init` inside `CodeTrack` showing "Initialized empty Git repository"
 
-Add your screenshot here.
 
----
+![alt text](<Output of git init inside CodeTrack showing Initialized empty Git repository.png>)
 
 #### Screenshot 2 — Output of `ls -a` showing the `.git` folder
 
-Add your screenshot here.
-
----
+![alt text](<Output of ls -a showing the .git folder.png>)
 
 ### Notes
 
 **1. What is the `.git` folder, and why does it matter?**
 
-Add your answer here.
-
----
+The .git folder is a hidden directory created by Git inside my project repository. It contains all the information Git needs to track changes, manage branches, store commit history, and connect your local repository to remote repositories like GitHub.
 
 # Task 2 — Configure Git Identity Locally (Repository-Only)
 
@@ -48,9 +43,7 @@ Set your Git username and email for the `CodeTrack` repository only, using `git 
 
 #### Screenshot 3 — Output of `git config --local --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
-
----
+![alt text](<git config --local --list.png>)
 
 # Task 3 — Configure Git Identity Globally
 
@@ -62,9 +55,8 @@ Set a global Git username and email for this machine using `git config --global`
 
 #### Screenshot 4 — Output of `git config --global --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+![alt text](<Output of git config --global --list showing your  user.name and user.email.png>)
 
----
 
 # Submission Instructions
 
