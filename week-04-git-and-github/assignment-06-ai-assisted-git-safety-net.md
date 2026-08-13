@@ -207,12 +207,13 @@ Push your branch and open a real Pull Request, using `/pr-ready`'s drafted title
 
 #### Screenshot 9 — Your Pull Request showing the base repository is your own fork, plus the title and description, with the `/pr-ready` draft visible for comparison (paste it in the PR conversation or your notes below)
 
-![alt text](<our Pull Request showing the base repository is your own fork, plus the title and description.png>)
+
+![alt text](<Your Pull Request showing the base repository is your own fork 1.png>)
 
 
 #### PR Link
 
-https://github.com/Felimek28/devops-micro-internship-interviews/pull/1
+https://github.com/pravinmishraaws/devops-micro-internship-interviews/pull/463
 
 ### Notes
 
