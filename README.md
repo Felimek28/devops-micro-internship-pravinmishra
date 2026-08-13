@@ -131,21 +131,22 @@ Week 03 → Linux & Bash for DevOps
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ⬜ Not Started  | ✅ Completed|https://www.linkedin.com/posts/felix-nwobodo-2a191856_successmindset-devops-cloud-share-7478509611529129986-AZUW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE | https://medium.com/@felixemeka28/from-broadcast-control-rooms-to-cloud-infrastructure-how-felix-emeka-built-career-across-two-09ebc4af885d
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ✅ Completed| https://www.linkedin.com/posts/felix-nwobodo-2a191856_dmibypravinmishra-devops-agenticai-activity-7481002773594034177-L6XA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE
+| 01 | Success Mindset | ✅ Completed| ✅ Solved| https://www.linkedin.com/posts/felix-nwobodo-2a191856_successmindset-devops-cloud-share-7478509611529129986-AZUW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE | https://medium.com/@felixemeka28/from-broadcast-control-rooms-to-cloud-infrastructure-how-felix-emeka-built-career-across-two-09ebc4af885d
+| 02 | Agentic AI with Claude Code | ✅ Completed |✅ Solved | https://www.linkedin.com/posts/felix-nwobodo-2a191856_dmibypravinmishra-devops-agenticai-activity-7481002773594034177-L6XA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE
  https://www.linkedin.com/posts/felix-nwobodo-2a191856_dmibypravinmishra-devops-agenticai-activity-7481002773594034177-L6XA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE 
  https://www.linkedin.com/posts/felix-nwobodo-2a191856_agenticai-claudecode-artificialintelligence-activity-7481411141731143681-Ve8_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE | — |
-| 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ ✅ Completed|
+| 03 | Linux & Bash for DevOps | ✅ Completed| ✅ Solved |
  https://lnkd.in/p/dCsc8c9V 
  https://lnkd.in/p/dHukeGgv 
  https://lnkd.in/p/dwcTGEug 
  https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-linux-bash-ugcPost-7483915409818218497-4eA-/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE 
  https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-linux-bash-ugcPost-7484039694201044993-NZbS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE | — |
-| 04 | Git & GitHub | ⬜ Not Started | ✅ Completed | https://lnkd.in/p/emtSSs2c  
+| 04 | Git & GitHub | ✅ Completed | ✅ Solved | 
+  https://lnkd.in/p/emtSSs2c  
   https://lnkd.in/p/ewyThR_5
   https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-git-github-activity-7493002943634235392-WpmH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE
   
-  |https://medium.com/@felixemeka28/learning-open-source-collaboration-with-git-and-github-from-fork-to-pull-request-655ef5652b75 |
+  |https://medium.com/@felixemeka28/learning-open-source-collaboration-with-git-and-github-from-fork-to-pull-request-655ef5652b75|
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
