@@ -82,8 +82,8 @@ Week 03 → Linux & Bash for DevOps
  Week 04 → Git & GitHub 
 [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/)
 
-<!-- Week 05 → DevOps Lifecycle & Agile -->
-<!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
+ Week 05 → DevOps Lifecycle & Agile 
+[![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/)
 
 <!-- Week 06 → AWS Cloud -->
 <!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
@@ -130,12 +130,12 @@ Week 03 → Linux & Bash for DevOps
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | 🔄 In Progress | ⏳ Pending | https://tinyurl.com/3ze6752p | — |
-| 01 | Success Mindset | ✅ Completed| ✅ Solved| https://tinyurl.com/y6ea9v2k | https://tinyurl.com/bddzketh |
-| 02 | Agentic AI with Claude Code | ✅ Completed |✅ Solved | https://tinyurl.com/fz2dy843 | — |
+| 00 | Internet & Networking Basics | 🔄 In Progress | ⏳ Pending |https://lnkd.in/p/dDAVSVm9  | — |
+| 01 | Success Mindset | ✅ Completed| ✅ Solved| https://lnkd.in/p/du4dcPqx | https://medium.com/@felixemeka28/from-broadcast-control-rooms-to-cloud-infrastructure-how-felix-emeka-built-career-across-two-09ebc4af885d |
+| 02 | Agentic AI with Claude Code | ✅ Completed |✅ Solved | https://lnkd.in/p/dR8Ww9nd | — |
 | 03 | Linux & Bash for DevOps | ✅ Completed| ✅ Solved | https://lnkd.in/p/dCsc8c9V | — |
-| 04 | Git & GitHub |✅ Completed |✅ Solved |https://lnkd.in/p/emtSSs2c|https://tinyurl.com/5ab6f3sr|
-| 05 | DevOps Lifecycle & Agile | 🔄 In Progress | ⏳ Pending | — | — |
+| 04 | Git & GitHub |✅ Completed |✅ Solved | https://lnkd.in/p/emtSSs2c  | https://medium.com/@felixemeka28/learning-open-source-collaboration-with-git-and-github-from-fork-to-pull-request-655ef5652b75 |
+| 05 | DevOps Lifecycle & Agile | 🔄 In Progress | ⏳ Pending | — | https://medium.com/@felixemeka28/jira-free-account-creation-step-by-step-f70fe85b0312?sharedUserId=felixemeka28 |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
