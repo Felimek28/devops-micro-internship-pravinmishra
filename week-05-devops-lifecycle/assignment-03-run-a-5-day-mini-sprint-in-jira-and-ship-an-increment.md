@@ -20,15 +20,15 @@ Create the footer Story (`Add footer with version and deploy date`, 1 point, `fr
 
 #### Screenshot 1 — Sprint 1 created with the Story inside it
 
-Add your screenshot here.
 
----
+![alt text](<Sprint 1 created with the Story inside it.png>)
+
 
 #### Screenshot 2 — Active Sprint board showing the Sprint Goal
 
-Add your screenshot here.
 
----
+![alt text](<Active Sprint board showing the Sprint Goal.png>)
+
 
 # Task 2 — Day 1: Implement the Footer, Commit, and Deploy
 
@@ -40,27 +40,26 @@ Add the required footer text (`Pravin Mishra Portfolio v1.0 — Deployed on <DD 
 
 #### Screenshot 3 — Jira board showing the Day 1 Sub-task in Done
 
-Add your screenshot here.
 
----
+![alt text](<Jira board showing the Day 1 Sub-task in Done.png>)
+
 
 #### Screenshot 4 — Successful Git commit output
 
-Add your screenshot here.
 
----
+![alt text](<Successful Git commit output.png>)
+
 
 #### Screenshot 5 — EC2 browser view showing the complete footer text, with the URL visible
 
-Add your screenshot here.
+![alt text](<EC2 browser view showing the complete footer text, with the URL visible.png>)
 
----
 
 #### Screenshot 6 — Jira Story comment showing the Day 1 Daily Scrum update
 
-Add your screenshot here.
 
----
+![alt text](<Jira Story comment showing the Day 1 Daily Scrum update.png>)
+
 
 # Task 3 — Day 2: Make the Deploy Date Dynamic and Document It
 
@@ -72,27 +71,27 @@ Update the footer so the deployment date is generated automatically (or updated 
 
 #### Screenshot 7 — Code editor showing the footer and date logic or deployment-time template snippet
 
-Add your screenshot here.
 
----
+![alt text](<Code editor showing the footer and date logic or deployment-time template snippet-1.png>)
+
 
 #### Screenshot 8 — EC2 browser view showing the updated footer with the current date
 
-Add your screenshot here.
 
----
+![alt text](<EC2 browser view showing the updated footer with the current date.png>)
+
 
 #### Screenshot 9 — README snippet documenting the footer and date behavior
 
-Add your screenshot here.
 
----
+![alt text](<README snippet documenting the footer and date behavior.png>)
+
 
 #### Screenshot 10 — Jira Story comment showing the Day 2 Daily Scrum update
 
-Add your screenshot here.
 
----
+![alt text](<Jira Story comment showing the Day 2 Daily Scrum update.png>)
+
 
 # Task 4 — Day 3: Polish the Footer and Validate Accessibility
 
@@ -104,21 +103,21 @@ Improve the footer's spacing, contrast, and readability, then validate it at bot
 
 #### Screenshot 11 — Desktop EC2 view showing the polished footer
 
-Add your screenshot here.
 
----
+![alt text](<Desktop EC2 view showing the polished footer.png>)
+
 
 #### Screenshot 12 — Mobile responsive view showing the footer remains readable
 
-Add your screenshot here.
 
----
+![alt text](<Mobile responsive view showing the footer remains readable.png>)
+
 
 #### Screenshot 13 — Jira Story comment showing the Day 3 Daily Scrum update
 
-Add your screenshot here.
 
----
+![alt text](<Jira Story comment showing the Day 3 Daily Scrum update.png>)
+
 
 # Task 5 — Day 4: Change the Homepage Tagline / Call-to-Action
 
@@ -130,9 +129,8 @@ Replace the existing homepage tagline with the required DMI Website call-to-acti
 
 #### Screenshot 14 — EC2 browser view showing "Start your DevOps Journey here" and the clickable "Visit the DMI Website" link
 
-Add your screenshot here.
+![alt text](<EC2 browser view showing Start your DevOps Journey here and the clickable Visit the DMI Website link.png>)
 
----
 
 # Task 6 — Day 5: Demo, Retrospective, and Burndown
 
@@ -144,29 +142,26 @@ Record a two-to-three-minute demo video of the shipped footer, add a retrospecti
 
 #### Screenshot 15 — Burndown Chart for Sprint 1
 
-Add your screenshot here.
+![alt text](<Burndown Chart for Sprint 1.png>)
 
----
 
 #### Screenshot 16 — Jira retrospective comment
 
-Add your screenshot here.
 
----
+![alt text](<Jira retrospective comment.png>)
+
 
 #### Screenshot 17 — Final EC2 browser view showing the complete footer requirement
 
-Add your screenshot here.
 
----
+![alt text](<Final EC2 browser view showing the complete footer requirement.png>)
+
 
 #### Demo Video URL
 
 Paste your unlisted YouTube or accessible Google Drive demo-video link here:
 
-`Add your URL here`
-
----
+https://drive.google.com/drive/folders/1TYRxIHEoK934eRp_edmPik79M5kwv9S8?usp=drive_link
 
 # LinkedIn Post (Required)
 
@@ -180,15 +175,13 @@ Publish a LinkedIn post about your five-day mini-Sprint, including your GitHub r
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
 
----
+https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-aws-ec2-ugcPost-7497707280017305600-FRte/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE
+
 
 #### LinkedIn Screenshot 1 — Published LinkedIn post showing the post content and at least one required link or proof image
 
-Add your screenshot here.
-
----
+![alt text](<Linkedin post for 5day sprint.png>)
 
 # Submission Instructions
 
