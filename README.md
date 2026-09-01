@@ -135,7 +135,7 @@ Week 03 → Linux & Bash for DevOps
 | 02 | Agentic AI with Claude Code | ✅ Completed |✅ Solved | https://lnkd.in/p/dR8Ww9nd | — |
 | 03 | Linux & Bash for DevOps | ✅ Completed| ✅ Solved | https://lnkd.in/p/dCsc8c9V | — |
 | 04 | Git & GitHub |✅ Completed |✅ Solved | https://lnkd.in/p/emtSSs2c  | https://medium.com/@felixemeka28/learning-open-source-collaboration-with-git-and-github-from-fork-to-pull-request-655ef5652b75 |
-| 05 | DevOps Lifecycle & Agile | 🔄 In Progress | ⏳ Pending | — | https://medium.com/@felixemeka28/jira-free-account-creation-step-by-step-f70fe85b0312?sharedUserId=felixemeka28 |
+| 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/felix-nwobodo-2a191856_jira-scrum-devops-ugcPost-7500108072346935296-waw0/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE | https://medium.com/@felixemeka28/jira-free-account-creation-step-by-step-f70fe85b0312?sharedUserId=felixemeka28 |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
