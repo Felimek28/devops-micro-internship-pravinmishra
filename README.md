@@ -15,7 +15,7 @@
 | | |
 |---|---|
 | **Name** | Felix Emeka Nwobodo|
-| **LinkedIn** | [Felix Emeka Nwobodo](www.linkedin.com/in/felix-nwobodo-2a191856) |
+| **LinkedIn** | [Felix Emeka Nwobodo] www.linkedin.com/in/felix-nwobodo-2a191856 |
 | **Location** | Enugu, Nigeria |
 | **Background** | Cloud, DevOps & AI Intern|
 | **Goal** | To work as a DevOps/Cloud  professional |
