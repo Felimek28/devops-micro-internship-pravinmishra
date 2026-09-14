@@ -363,9 +363,7 @@ Submit your GitHub repository URL containing all assignment files, screenshots, 
 
 Paste your GitHub repository URL here:
 
-`Add your GitHub repository URL here`
-
----
+https://github.com/Felimek28/devops-micro-internship-pravinmishra.git
 
 ## 📌 About DMI & CloudAdvisory
 
