@@ -20,9 +20,9 @@ Create an architecture diagram showing the custom VPC (10.0.0.0/16), the six sub
 
 #### Diagram image or link
 
-Add your diagram image or link here.
 
----
+![alt text](<Architecture Diagram for capstone aws project.png>)
+
 
 # Task 2 — AWS Region & Services Used
 
@@ -34,15 +34,21 @@ Record the AWS Region used and list every AWS service used across networking, co
 
 **Region:**
 
-Write your answer here.
-
----
+eu-north-1
 
 **Services:**
 
-Write your answer here.
+Networking: VPC, six subnets across two AZs, Internet Gateway, NAT Gateway, route tables, Elastic IP, and Security Groups.
 
----
+Compute: Two Ubuntu 24.04 LTS EC2 t3.micro instances with key pairs.
+
+Load Balancing: Two Application Load Balancers—one internet-facing and one internal—with target groups and listeners.
+
+Database: Amazon RDS for MySQL with Multi-AZ, a read replica, and a DB subnet group across both AZs.
+
+Supporting Services: IAM, Systems Manager Parameter Store, and AWS CLI v2.
+
+Application Software: Nginx, Node.js 20, Next.js 15, Express, Sequelize, and systemd.
 
 # Task 3 — Public Entry Point
 
@@ -56,9 +62,7 @@ Confirm the Book Review App loads through the public ALB DNS name.
 
 Paste your public ALB DNS name here:
 
-`Add your URL here`
-
----
+http://Book-Review-Web-ALB-1334812670.eu-north-1.elb.amazonaws.com
 
 # Task 4 — Evidence Screenshots
 
@@ -70,39 +74,27 @@ Capture visual proof of every tier and load balancer.
 
 #### Web EC2
 
-Add your screenshot here.
-
----
+![alt text](<Web EC2.png>)
 
 #### App EC2
 
-Add your screenshot here.
-
----
+![alt text](<App EC2.png>)
 
 #### Public ALB
 
-Add your screenshot here.
-
----
+![alt text](<Public ALB.png>)
 
 #### Internal ALB
 
-Add your screenshot here.
-
----
+![alt text](<Internal ALB.png>)
 
 #### RDS + Replica
 
-Add your screenshot here.
-
----
+![alt text](<RDS + Replica.png>)
 
 #### App UI proof
 
-Add your screenshot here.
-
----
+![alt text](<Registration successful for aws capstone projects.png>)
 
 # Task 5 — Summary
 
@@ -114,21 +106,16 @@ Summarize what worked in the final deployment, the issues encountered and how ea
 
 **What worked:**
 
-Write your answer here.
-
----
+The three-tier Book Review application was successfully deployed and made accessible through the internet-facing Web ALB. The Next.js frontend and Node.js/Express backend were both running on separate EC2 instances and managed by PM2. The backend successfully connected to the MySQL RDS database, and the complete application flow, including user registration, was working successfully.
 
 **Issues + fixes:**
 
-Write your answer here.
-
----
+I had difficulties connecting into app ec2 through web ec2. I checked security group and discovered SSH was pointing to a wrong target, I corrected that and the issue got resolved.
+After deployment registration worked, but authentication failed.I tested the login endpoint directly from the backend EC2 using curl, traced the failure to JWT generation, and discovered that JWT_SECRET was missing from the backend environment configuration.
 
 **Tools/sources used:**
 
-Write your answer here.
-
----
+AWS EC2, Application Load Balancers, Target Groups, Security Groups, RDS MySQL, Nginx, Next.js, Node.js, Express, PM2, MySQL, Linux commands, browser Developer Tools, and application/server logs.
 
 # LinkedIn Post (Required)
 
@@ -142,15 +129,14 @@ Publish a LinkedIn post sharing the capstone deployment, including the public AL
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/felix-nwobodo-2a191856_aws-cloudcomputing-devops-activity-7504242828584181761-YynF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE
 
----
 
 #### Screenshot of LinkedIn post
 
-Add your screenshot here.
 
----
+![alt text](<Linkedin post for aws capstone project.png>)
+
 
 # Submission Instructions
 
