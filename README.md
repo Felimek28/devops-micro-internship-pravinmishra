@@ -15,7 +15,7 @@
 | | |
 |---|---|
 | **Name** | Felix Emeka Nwobodo|
-| **LinkedIn** | [Felix Emeka Nwobodo](www.linkedin.com/in/felix-nwobodo-2a191856pravin-mishra-aws-trainer/) |
+| **LinkedIn** | [Felix Emeka Nwobodo](www.linkedin.com/in/felix-nwobodo-2a191856) |
 | **Location** | Enugu, Nigeria |
 | **Background** | Cloud, DevOps & AI Intern|
 | **Goal** | To work as a DevOps/Cloud  professional |
@@ -49,7 +49,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 <!-- Add your cohort leaderboard rank here as you progress -->
 
-> 🥇 Cohort 3 Rank: **#__** <!-- Update this each week -->
+> 🥇 Cohort 3 Rank: **#100** <!-- Update this each week -->
 
 ---
 
@@ -85,8 +85,8 @@ Week 03 → Linux & Bash for DevOps
  Week 05 → DevOps Lifecycle & Agile 
 [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/)
 
-<!-- Week 06 → AWS Cloud -->
-<!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
+ Week 06 → AWS Cloud 
+[![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/)
 
 <!-- Week 07 → Azure Cloud -->
 <!-- [![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/) -->
@@ -136,7 +136,7 @@ Week 03 → Linux & Bash for DevOps
 | 03 | Linux & Bash for DevOps | ✅ Completed| ✅ Solved | https://lnkd.in/p/dCsc8c9V | — |
 | 04 | Git & GitHub |✅ Completed |✅ Solved | https://lnkd.in/p/emtSSs2c  | https://medium.com/@felixemeka28/learning-open-source-collaboration-with-git-and-github-from-fork-to-pull-request-655ef5652b75 |
 | 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/felix-nwobodo-2a191856_jira-scrum-devops-ugcPost-7500108072346935296-waw0/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE | https://medium.com/@felixemeka28/jira-free-account-creation-step-by-step-f70fe85b0312?sharedUserId=felixemeka28 |
-| 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 06 | AWS Cloud | ✅ Completed| ✅ Solved  | https://www.linkedin.com/posts/felix-nwobodo-2a191856_aws-cloudcomputing-devops-activity-7503452477220950017-Xomj?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE | https://medium.com/@felixemeka28/deploying-a-book-review-3-tier-application-on-aws-a-step-by-step-hands-on-guide-c041f454e90e |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
