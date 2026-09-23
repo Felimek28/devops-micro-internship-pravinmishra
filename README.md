@@ -49,7 +49,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 <!-- Add your cohort leaderboard rank here as you progress -->
 
-> 🥇 Cohort 3 Rank: **#100** <!-- Update this each week -->
+> 🥇 Cohort 3 Rank: **#82** <!-- Update this each week -->
 
 ---
 
@@ -88,8 +88,8 @@ Week 03 → Linux & Bash for DevOps
  Week 06 → AWS Cloud 
 [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/)
 
-<!-- Week 07 → Azure Cloud -->
-<!-- [![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/) -->
+ Week 07 → Azure Cloud
+[![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/)
 
 <!-- Week 08 → Terraform -->
 <!-- [![Week 08 – Terraform](./badges/week-08.svg)](./week-08-terraform/) -->
@@ -137,7 +137,7 @@ Week 03 → Linux & Bash for DevOps
 | 04 | Git & GitHub |✅ Completed |✅ Solved | https://lnkd.in/p/emtSSs2c  | https://medium.com/@felixemeka28/learning-open-source-collaboration-with-git-and-github-from-fork-to-pull-request-655ef5652b75 |
 | 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/felix-nwobodo-2a191856_jira-scrum-devops-ugcPost-7500108072346935296-waw0/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE | https://medium.com/@felixemeka28/jira-free-account-creation-step-by-step-f70fe85b0312?sharedUserId=felixemeka28 |
 | 06 | AWS Cloud | ✅ Completed| ✅ Solved  | https://www.linkedin.com/posts/felix-nwobodo-2a191856_aws-cloudcomputing-devops-activity-7503452477220950017-Xomj?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE | https://medium.com/@felixemeka28/deploying-a-book-review-3-tier-application-on-aws-a-step-by-step-hands-on-guide-c041f454e90e |
-| 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 07 | Azure Cloud | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/felix-nwobodo-2a191856_microsoftazure-azure-cloudcomputing-ugcPost-7508140795183497217--swW/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE             | https://medium.com/@felixemeka28/deploying-a-production-style-three-tier-book-review-application-on-microsoft-azure-97cb8cac8178 |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
