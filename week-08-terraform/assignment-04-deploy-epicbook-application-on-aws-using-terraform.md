@@ -24,25 +24,23 @@ Prepare your local environment by installing Terraform, AWS CLI, and the HashiCo
 
 Add a screenshot of the terminal showing successful `terraform version` output.
 
-Add your screenshot here.
 
----
+![alt text](<screenshot of the terminal showing successful terraform version output for aws assignmen4.png>)
+
 
 ### Screenshot 2 — AWS CLI Version
 
 Add a screenshot of the terminal showing successful `aws --version` output.
 
-Add your screenshot here.
+![alt text](<terminal showing successful aws --version output.png>)
 
----
 
 ### Screenshot 3 — HashiCorp Terraform Extension
 
 Add a screenshot of VS Code showing the HashiCorp Terraform extension installed and enabled.
 
-Add your screenshot here.
+![alt text](<VS Code Extensions panel showing the HashiCorp Terraform extension installed and enabled-2.png>)
 
----
 
 # Task 1 — Create the Modular Terraform Project
 
@@ -78,11 +76,12 @@ terraform-aws-epicbook/
 
 ### Screenshot 4 — Modular Project Structure
 
-Add a screenshot of the VS Code Explorer showing the complete root project and the `network`, `ec2`, and `rds` module directory structure.
+Add a screenshot of the VS Code Explorer showing the complete root project and the `network`, `ec2`, and `rds` module directory structure.  
 
-Add your screenshot here.
 
----
+![alt text](<VS Code Explorer showing the complete root project and the network ,ec2 and rds module directory structure..png>)
+
+
 
 # Task 2 — Build the Network Module
 
@@ -109,33 +108,31 @@ The network module must include:
 
 Add a screenshot of VS Code showing the VPC, public subnet, and two private database subnet configurations.
 
-Add your screenshot here.
+![alt text](<VS Code showing the VPC, public subnet, and two private database subnet configurations..png>)
 
----
 
 ### Screenshot 6 — Internet Gateway and Public Routing
 
 Add a screenshot of VS Code showing the Internet Gateway, public route table, and route table association.
 
-Add your screenshot here.
+![alt text](<VS Code showing the Internet Gateway, public route table, and route table association..png>)
 
----
 
 ### Screenshot 7 — EC2 and RDS Security Groups
 
 Add a screenshot of VS Code showing the EC2 and RDS Security Groups, including MySQL access from the EC2 Security Group only.
 
-Add your screenshot here.
+![alt text](<VS Code showing the EC2 and RDS Security Groups, including MySQL access from the EC2 Security Group only.png>)
 
----
+![alt text](<VS Code showing the EC2 and RDS Security Groups.png>)
+
 
 ### Screenshot 8 — Network Module Outputs
 
 Add a screenshot of VS Code showing the network module outputs.
 
-Add your screenshot here.
+![alt text](<VS Code showing the network module outputs..png>)
 
----
 
 # Task 3 — Build the EC2 Module and User Data Installation Script
 
@@ -161,9 +158,8 @@ The `user_data.sh` script must install the required software without storing dat
 
 Add a screenshot of VS Code showing the EC2 resource and `user_data` configuration.
 
-Add your screenshot here.
+![alt text](<VS Code showing the EC2 resource and user_data configuration.png>)
 
----
 
 ### Screenshot 10 — `user_data.sh`
 
@@ -171,17 +167,18 @@ Add a screenshot of VS Code showing `user_data.sh`.
 
 Ensure that no credentials, passwords, private keys, access tokens, or application secrets are visible.
 
-Add your screenshot here.
+![alt text](<VS Code showing user_data.sh.png>)
 
----
 
 ### Screenshot 11 — EC2 Module Variables and Outputs
 
-Add a screenshot of VS Code showing the EC2 module variables and outputs.
+Add a screenshot of VS Code showing the EC2 module variables and outputs. 
 
-Add your screenshot here.
 
----
+![alt text](<VS Code showing the EC2 module variables and outputs..png>)
+
+![alt text](<VS Code showing the EC2 module  outputs.png>)
+
 
 # Task 4 — Build the Amazon RDS Module
 
@@ -205,9 +202,8 @@ The RDS module must include:
 
 Add a screenshot of VS Code showing the DB subnet group and RDS MySQL configuration.
 
-Add your screenshot here.
+![alt text](<VS Code showing the DB subnet group and RDS MySQL configuration..png>)
 
----
 
 ### Screenshot 13 — Private RDS and Sensitive Variables
 
@@ -215,17 +211,16 @@ Add a screenshot of VS Code showing `publicly_accessible = false`, the RDS Secur
 
 Ensure that the database password and other sensitive values are hidden.
 
-Add your screenshot here.
 
----
+![alt text](<VS Code showing publicly_accessible = false.png>)
+
 
 ### Screenshot 14 — RDS Endpoint Output
 
 Add a screenshot of VS Code showing the RDS endpoint output.
 
-Add your screenshot here.
+![alt text](<VS Code showing the RDS endpoint output..png>)
 
----
 
 # Task 5 — Connect the Terraform Modules from the Root Module
 
@@ -239,25 +234,24 @@ Use the root Terraform configuration to call the Network, EC2, and RDS modules a
 
 Add a screenshot of VS Code showing the root `main.tf` with the Network, EC2, and RDS module blocks.
 
-Add your screenshot here.
 
----
+![alt text](<VS Code showing the root main.tf with the Network, EC2, and RDS module blocks..png>)
+
 
 ### Screenshot 16 — Values Passed Between Modules
 
 Add a screenshot of VS Code showing values passed from the Network module to the EC2 and RDS modules.
 
-Add your screenshot here.
+![alt text](<VS Code showing values passed from the Network module to the EC2 and RDS modules..png>)
 
----
 
 ### Screenshot 17 — Root Outputs
 
 Add a screenshot of VS Code showing the root EC2 public IP and RDS endpoint outputs.
 
-Add your screenshot here.
 
----
+![alt text](<VS Code showing the root EC2 public IP and RDS endpoint outputs..png>)
+
 
 # Task 6 — Initialize, Validate, Plan, and Apply the Terraform Configuration
 
@@ -271,41 +265,36 @@ Initialize the modular Terraform project, validate the configuration, review the
 
 Add a screenshot of the terminal showing successful `terraform init` output.
 
-Add your screenshot here.
-
----
+![alt text](<terminal showing successful terraform init output.png>)
 
 ### Screenshot 19 — Terraform Validation
 
 Add a screenshot of the terminal showing successful `terraform validate` output.
 
-Add your screenshot here.
+![alt text](<terminal showing successful terraform validate output.png>)
 
----
 
 ### Screenshot 20 — Terraform Plan
 
 Add a screenshot showing the Terraform plan summary and proposed resources.
 
-Add your screenshot here.
 
----
+![alt text](<Terraform plan summary and proposed resources..png>)
+
 
 ### Screenshot 21 — Terraform Apply
 
 Add a screenshot showing successful `terraform apply` completion.
 
-Add your screenshot here.
+![alt text](<terraform apply completion.png>)
 
----
 
 ### Screenshot 22 — Terraform Outputs
 
 Add a screenshot showing the EC2 public IP and RDS endpoint returned by `terraform output`.
 
-Add your screenshot here.
+![alt text](<terraform output for assignment 4.png>)
 
----
 
 # Task 7 — Verify EC2, User Data, and Amazon RDS
 
@@ -319,25 +308,24 @@ Verify that the EC2 and RDS resources were successfully provisioned and confirm 
 
 Add a screenshot of AWS CLI showing the EC2 instance running.
 
-Add your screenshot here.
+![alt text](<AWS CLI showing the EC2 instance running..png>)
 
----
 
 ### Screenshot 24 — Private RDS Available
 
 Add a screenshot of AWS CLI showing that RDS is available and not publicly accessible.
 
-Add your screenshot here.
 
----
+![alt text](<AWS CLI showing that RDS is available and not publicly accessible.png>)
+
 
 ### Screenshot 25 — Installed Software and Nginx
 
 Add a screenshot of the EC2 terminal showing the required software version checks and the active Nginx service.
 
-Add your screenshot here.
 
----
+![alt text](<EC2 terminal showing the required software version checks and the active Nginx service..png>)
+
 
 # Task 8 — Prepare the EpicBook Database
 
@@ -353,17 +341,16 @@ Add a screenshot of the terminal showing a successful connection from EC2 to Ama
 
 Ensure that the database password is not visible.
 
-Add your screenshot here.
+![alt text](<terminal showing a successful connection from EC2 to Amazon RDS.png>)
 
----
 
 ### Screenshot 27 — EpicBook Tables and Imported Data
 
-Add a screenshot of the terminal showing the EpicBook tables and imported data.
+Add a screenshot of the terminal showing the EpicBook tables and imported data. 
 
-Add your screenshot here.
 
----
+![alt text](<terminal showing the EpicBook tables and imported data..png>)
+
 
 # Task 9 — Deploy and Configure the EpicBook Application
 
@@ -377,25 +364,23 @@ Install EpicBook dependencies, configure the application to use Amazon RDS, conf
 
 Add a screenshot of the terminal showing successful dependency installation and the `node_modules` directory.
 
-Add your screenshot here.
+![alt text](<terminal showing successful dependency installation and the node_modules directory.png>)
 
----
 
 ### Screenshot 29 — Nginx Configuration and Service
 
 Add a screenshot of the terminal showing a successful Nginx configuration test and active service status.
 
-Add your screenshot here.
 
----
+![alt text](<terminal showing a successful Nginx configuration test and active service status.png>)
+
 
 ### Screenshot 30 — EpicBook on Port `8080`
 
 Add a screenshot of the terminal showing EpicBook running or listening on port `8080`.
 
-Add your screenshot here.
+![alt text](<terminal showing EpicBook running or listening on port 8080.png>)
 
----
 
 # Task 10 — Test End-to-End Functionality
 
@@ -405,7 +390,7 @@ Verify that EpicBook, EC2, Nginx, and Amazon RDS work together successfully.
 
 ## EC2 Public IP URL
 
-**EC2 Public IP URL:** Add the working EpicBook EC2 public IP URL here
+**EC2 Public IP URL:**   http://100.61.127.60/
 
 ## Evidence
 
@@ -413,17 +398,16 @@ Verify that EpicBook, EC2, Nginx, and Amazon RDS work together successfully.
 
 Add a screenshot of the browser showing EpicBook using the EC2 public IP.
 
-Add your screenshot here.
+![alt text](<Browser showing EpicBook using the EC2 public IP..png>)
 
----
 
 ### Screenshot 32 — Cart or Checkout Action
 
 Add a screenshot of the browser showing a successful cart or checkout action.
 
-Add your screenshot here.
 
----
+![alt text](<browser showing a successful cart or checkout action..png>)
+
 
 ### Screenshot 33 — Corresponding RDS Record
 
@@ -431,9 +415,8 @@ Add a screenshot of the terminal showing the corresponding RDS database record c
 
 Ensure that database credentials and other sensitive values are not visible.
 
-Add your screenshot here.
+![alt text](<terminal showing the corresponding RDS database record created by the application action..png>)
 
----
 
 # Task 11 — Destroy the Terraform Infrastructure
 
@@ -447,9 +430,9 @@ Remove all AWS resources created by the modular Terraform configuration.
 
 Add a screenshot of the terminal showing successful `terraform destroy` completion.
 
-Add your screenshot here.
 
----
+![alt text](<Terraform destroy for epicbook.png>)
+
 
 # Task 12 — LinkedIn Post (Mandatory)
 
@@ -465,13 +448,13 @@ Write the post in your own words and include at least one deployment screenshot 
 
 Add a screenshot of the published LinkedIn post showing the post and at least one deployment image or other proof.
 
-Add your screenshot here.
+![alt text](<Linkedinpost for epicbook.png>)
 
 ## LinkedIn Post URL
 
-**LinkedIn Post URL:** Add your LinkedIn post URL here
+**LinkedIn Post URL:**   https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-aws-terraform-ugcPost-7509657265923252224-yPZk/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE
 
----
+
 
 # Submission Instructions
 

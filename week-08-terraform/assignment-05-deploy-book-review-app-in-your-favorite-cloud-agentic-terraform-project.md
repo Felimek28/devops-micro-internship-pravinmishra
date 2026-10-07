@@ -6,10 +6,10 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ## Student Details
 
-**Full Name:** Add your full name here  
-**Cloud Platform:** AWS or Azure  
-**GitHub Repository URL:** Add your repository URL here  
-**Public Application URL / Load-Balancer DNS:** Add the public URL or DNS here
+**Full Name:** Felix Emeka Nwobodo 
+**Cloud Platform:** AWS 
+**GitHub Repository URL:**https://github.com/Felimek28/book-review-terraform-capstone.git
+**Public Application URL / Load-Balancer DNS:** public-alb-2062653275.us-east-1.elb.amazonaws.com
 
 ---
 
@@ -31,41 +31,38 @@ Prepare the Book Review App project and configure the provided Claude Code Agent
 
 Add a screenshot of the project `CLAUDE.md` showing the three-tier architecture, security boundaries, Terraform requirements, and human-approval rules.
 
-Add your screenshot here.
 
----
+![alt text](<project CLAUDE.md showing the three-tier architecture, security boundaries, Terraform requirements, and human-approval rules.png>)
+
 
 ### Screenshot 2 — Terraform Engineer Subagent
 
 Add a screenshot showing the Terraform Engineer subagent configuration.
 
-Add your screenshot here.
+![alt text](<Terraform Engineer subagent configuration..png>)
 
----
 
 ### Screenshot 3 — Architecture and Security Reviewer Subagent
 
 Add a screenshot showing the Architecture and Security Reviewer subagent configuration.
 
-Add your screenshot here.
+![alt text](<Architecture and Security Reviewer subagent configuration1.png>)
 
----
 
 ### Screenshot 4 — Terraform MCP Connection
 
 Add a screenshot showing Terraform MCP connected and available.
 
-Add your screenshot here.
 
----
+![alt text](<Terraform MCP connected and available.png>)
+
 
 ### Screenshot 5 — Validation Hooks
 
 Add a screenshot showing the configured Claude Code validation hooks.
 
-Add your screenshot here.
+![alt text](<Claude Code validation hooks.png>)
 
----
 
 # Task 1 — Design the Three-Tier Architecture
 
@@ -92,7 +89,8 @@ The diagram must show:
 
 Add the completed architecture diagram here.
 
----
+![alt text](<Architecture diagram showing the public entry point, three tiers, network boundaries, and traffic flow.png>)
+
 
 # Task 2 — Build the Terraform Networking and Security Layers
 
@@ -106,25 +104,22 @@ Create the modular Terraform project and implement the network and security laye
 
 Add a screenshot showing the modular Terraform project structure.
 
-Add your screenshot here.
+![alt text](<modular Terraform project structure..png>)
 
----
 
 ### Screenshot 7 — Six-Subnet Architecture
 
 Add a screenshot showing the six-subnet architecture across two availability locations.
 
-Add your screenshot here.
+![alt text](<six-subnet architecture across two availability locations for bookreview.png>)
 
----
 
 ### Screenshot 8 — Public and Private Tier Separation
 
 Add a screenshot showing the public and private tier separation, including routing and security boundaries.
 
-Add your screenshot here.
 
----
+![alt text](<public and private tier separation, including routing and security boundaries.png>)
 
 # Task 3 — Build the Load-Balancing and Compute Layers
 
@@ -138,33 +133,30 @@ Deploy the public and internal load balancers and the Web and Application comput
 
 Add a screenshot showing the Web and Application compute resources in their required subnets.
 
-Add your screenshot here.
+![alt text](<Web and Application compute resources in their required subnets.png>)
 
----
 
 ### Screenshot 10 — Public Load Balancer
 
 Add a screenshot showing the internet-facing public load balancer.
 
-Add your screenshot here.
+![alt text](<internet-facing public load balancer.png>)
 
----
 
 ### Screenshot 11 — Internal Load Balancer
 
 Add a screenshot showing the private internal load balancer.
 
-Add your screenshot here.
+![alt text](<private internal load balancer.png>)
 
----
 
 ### Screenshot 12 — Healthy Targets
 
 Add a screenshot showing healthy target groups or backend pools.
 
-Add your screenshot here.
 
----
+![alt text](<healthy target groups or backend pools..png>)
+
 
 # Task 4 — Build the Managed MySQL Database Layer
 
@@ -178,33 +170,29 @@ Deploy a private, highly available managed MySQL database with a read replica an
 
 Add a screenshot showing the managed MySQL database deployment.
 
-Add your screenshot here.
 
----
+![alt text](<managed MySQL database deployment.png>)
+
 
 ### Screenshot 14 — High Availability
 
 Add a screenshot showing the Multi-AZ or high-availability configuration.
 
-Add your screenshot here.
+![alt text](<Multi-AZ or high-availability configuration.png>)
 
----
 
 ### Screenshot 15 — Read Replica
 
 Add a screenshot showing the read replica configuration.
 
-Add your screenshot here.
-
----
+![alt text](<read replica configuration.png>)
 
 ### Screenshot 16 — Private Database Access
 
 Add a screenshot showing that the database is private and accepts MySQL traffic only from the Application Tier.
 
-Add your screenshot here.
+![alt text](<database is private and accepts MySQL traffic only from the Application Tier.png>)
 
----
 
 # Task 5 — Validate, Review, and Apply the Terraform Configuration
 
@@ -218,25 +206,23 @@ Validate the Terraform configuration, review the execution plan using both Agent
 
 Add a screenshot showing successful `terraform validate` output.
 
-Add your screenshot here.
 
----
+![alt text](<terraform validate for bookreview validate.png>)
+
 
 ### Screenshot 18 — Terraform Plan
 
 Add a screenshot showing the Terraform plan output.
 
-Add your screenshot here.
 
----
+![alt text](<terraform plan for bookreview capstone.png>)
+
 
 ### Screenshot 19 — Terraform Apply
 
 Add a screenshot showing successful `terraform apply` completion.
 
-Add your screenshot here.
-
----
+![alt text](<terraform apply output for bookreview.png>)
 
 # Task 6 — Deploy and Configure the Book Review Application
 
@@ -250,53 +236,54 @@ Deploy and configure the Book Review App across the Web, Application, and Databa
 
 Add a screenshot showing the Book Review App homepage through the public endpoint.
 
-Add your screenshot here.
+![alt text](<Book Review App homepage through the public endpoint.png>)
 
----
 
 ### Screenshot 21 — Login or Authentication
 
 Add a screenshot showing successful login or authentication.
 
-Add your screenshot here.
+![alt text](<Successful login or authentication.png>)
 
----
 
 ### Screenshot 22 — Book Data
 
-Add a screenshot showing the book listing or book details.
+Add a screenshotshowing the book listing or book details.
 
-Add your screenshot here.
 
----
+![alt text](<Book list for bookreview capstone.png>)
+
 
 ### Screenshot 23 — Review Functionality
 
 Add a screenshot showing the review functionality working successfully.
 
-Add your screenshot here.
+![alt text](<review functionality working successfully.png>)
 
----
 
 ### Screenshot 24 — Backend or API Evidence
 
 Add a screenshot showing that the backend or API is working successfully.
 
-Add your screenshot here.
+![alt text](<backend or API is working successfully.png>)
 
----
+
 
 ### Screenshot 25 — Database Reads and Writes
 
 Add a screenshot showing successful database reads and writes.
 
-Add your screenshot here.
+
+![alt text](<book added in the database.png>)
+
+![alt text](<database reads and writes for bookreview.png>)
+
 
 ## Public Application URL
 
-**Public Application URL / DNS:** Add the working public application URL or load-balancer DNS here
+**Public Application URL / DNS:** http://public-alb-2062653275.us-east-1.elb.amazonaws.com/
 
----
+
 
 # Task 7 — Demonstrate the Agentic AI Workflow
 
@@ -312,25 +299,24 @@ You do not need to submit your complete Claude Code conversation history. Includ
 
 Add a screenshot showing one useful example of AI-assisted Terraform generation or improvement.
 
-Add your screenshot here.
+![alt text](<AI-assisted Terraform generation or improvement.png>)
 
----
 
 ### Screenshot 27 — Architecture or Security Review
 
 Add a screenshot showing one structured architecture or security review result.
 
-Add your screenshot here.
 
----
+![alt text](<architecture or security review result.png>)
+
 
 ### Screenshot 28 — AI-Assisted Troubleshooting
 
 Add a screenshot showing one AI-assisted troubleshooting interaction based on collected evidence.
 
-Add your screenshot here.
 
----
+![alt text](<AI-assisted troubleshooting interaction based on collected evidence.png>)
+
 
 # Task 8 — Complete the Final Architecture Review
 
@@ -367,69 +353,138 @@ Reflect on the architecture, Terraform implementation, and Agentic AI workflow. 
 
 ### 1. Why did you separate the Web, Application, and Database tiers?
 
-Write your answer here.
+I separated the Web, Application, and Database tiers to enforce separation of responsibilities, security, and maintainability. The Web Tier is responsible for handling client requests and serving the frontend, the Application Tier manages business logic and API requests, while the Database Tier securely stores persistent application data.
+
+This separation allows each tier to be secured and managed independently, limits unnecessary network exposure, and makes the architecture easier to scale, troubleshoot, and maintain. It also ensures that sensitive resources, particularly the database, are not directly exposed to the public internet.
+
+
 
 ### 2. Why is the Application Tier private?
 
-Write your answer here.
+The Application Tier is kept private because it does not need to be directly accessible from the internet. Client requests are received by the Web Tier and then forwarded to the Application Tier through the Internal Load Balancer.
+
+Keeping the Application Tier private reduces the attack surface and prevents direct internet access to the backend API, including port 3001. This ensures that backend services can only be accessed through the intended application path while allowing security controls such as network rules and load balancing to be applied between the tiers.
+
+
 
 ### 3. Why is MySQL private?
 
-Write your answer here.
+MySQL is kept private because the database should not be directly accessible from the internet. It only needs to accept connections from the Application Tier, which communicates with it over the private network.
+
+Keeping MySQL private reduces the attack surface, protects sensitive application data, and prevents unauthorized external connections to the database. Access is controlled through network security rules, allowing only the required application traffic while keeping the database isolated from public internet access.
+
 
 ### 4. Why are multiple Availability Zones used?
 
-Write your answer here.
+Multiple Availability Zones are used to improve the application's availability, resilience, and fault tolerance. By distributing resources across separate Availability Zones, the application is less dependent on a single physical location.
+
+If one Availability Zone experiences an infrastructure failure or becomes unavailable, resources in another Availability Zone can continue to serve the application. This reduces the risk of a single point of failure and helps maintain service availability during infrastructure disruptions.
+
+
 
 ### 5. What is the difference between Multi-AZ/high availability and a read replica?
 
-Write your answer here.
+Multi-AZ/high availability is primarily designed to improve availability and fault tolerance. A standby database is maintained in a separate Availability Zone so that the service can fail over if the primary database becomes unavailable. The standby is generally not used to serve normal application read traffic.
+
+A read replica, on the other hand, is primarily designed to improve read performance and scalability. It maintains a copy of the database that can handle read-only queries, allowing read traffic to be distributed away from the primary database.
+
 
 ## Terraform
 
 ### 6. How did you divide your Terraform into modules?
 
-Write your answer here.
+I divided the Terraform configuration into reusable modules based on infrastructure responsibilities. This keeps the code organized, maintainable, and easier to manage.
+
+I created separate modules for:
+
+Networking – manages the VPC, public and private subnets, route tables, Internet Gateway, and NAT Gateway.
+Security – manages security groups and controls traffic between the different tiers.
+EC2 – provisions and configures the EC2 instances for the Web and Application tiers.
+ALB – manages the public and internal Application Load Balancers, target groups, listeners, and health checks.
+Database – provisions and manages the RDS MySQL database and its associated configuration.
+
+This modular approach allows each component to be developed, tested, reused, and updated independently, while keeping the root Terraform configuration clean and easier to understand.
+
 
 ### 7. How do the modules communicate through variables and outputs?
 
-Write your answer here.
+The modules communicate through input variables and outputs. The root Terraform configuration passes required values into each module using variables, while modules expose important resource information through outputs.
+
 
 ### 8. What did you specifically check in `terraform plan`?
 
-Write your answer here.
+
+In terraform plan, I reviewed the proposed infrastructure changes before applying them. I specifically checked that:
+
+The correct resources and number of instances would be created.
+Resources were being deployed in the correct VPC, subnets, and Availability Zones.
+The security groups and network rules allowed only the required traffic between the tiers.
+The public and internal load balancers, target groups, listeners, and health checks were configured correctly.
+The RDS MySQL database was configured as intended and not exposed publicly.
+Resource dependencies and references between modules were correct.
+Terraform was not planning to unexpectedly destroy or modify existing resources.
+
 
 ## Agentic AI
 
 ### 9. What was the purpose of `CLAUDE.md`?
 
-Write your answer here.
+CLAUDE.md served as a project-specific instruction and context file for Claude Code. It provided Claude with information about the project, including the infrastructure architecture, coding conventions, Terraform structure, security requirements, and important deployment guidelines.
+
+This helped Claude understand the project's requirements and generate or modify Terraform configurations more consistently. It also reduced the need to repeatedly provide the same project context and helped ensure that AI-assisted changes followed the intended architecture and best practices.
+
 
 ### 10. What work did the Terraform Engineer subagent perform?
 
-Write your answer here.
+The Terraform Engineer subagent reviewed the Terraform configuration against the capstone requirements to identify configuration gaps and potential improvements.
+
+It inspected the VPC and six-subnet design, routing, EC2 placement, public and internal load balancers, security groups, RDS configuration, Multi-AZ setup, read replica, and relationships between Terraform modules. It also evaluated whether the resources were connected correctly through variables and outputs and provided targeted recommendations to improve the infrastructure where necessary.
+
+The subagent's role was primarily to analyze and validate the Terraform design, while I reviewed its recommendations and made the appropriate changes.
+
+
 
 ### 11. What did the Architecture and Security Reviewer identify?
 
-Write your answer here.
+The reviewer confirmed that most of the required architecture and security controls were correctly implemented, including tier separation, private application instances, private RDS, security-group chaining, Multi-AZ, and the read replica.
+
+It also identified risks such as a single-AZ NAT Gateway, static EC2 instances without Auto Scaling, local Terraform state, cost exposure from always-on resources, and limited RDS deletion protection.
+
 
 ### 12. Why did you use Terraform MCP instead of relying only on Claude's existing Terraform knowledge?
 
-Write your answer here.
+I used Terraform MCP to give Claude more direct, project-specific access to Terraform information and tooling rather than relying only on its general knowledge.
+
+Terraform MCP helped provide more reliable context about Terraform resources, providers, configurations, and infrastructure operations, which reduced the risk of generating outdated or incorrect configurations. It also allowed Claude to work more closely with the actual Terraform workflow and validate proposed changes against the infrastructure requirements.
+
+
 
 ### 13. What was the purpose of your validation hooks?
 
-Write your answer here.
+The validation hooks provided automated quality checks around the Terraform workflow. Their purpose was to catch formatting, syntax, and configuration issues early, before changes progressed to the planning or deployment stages.
+
+They supported a controlled workflow:
+
+Generate/Edit → terraform fmt → terraform validate → terraform plan → AI Review → Human Review → terraform apply
 
 ### 14. Describe one real issue Claude helped you troubleshoot.
 
-Write your answer here.
+One real issue Claude helped me troubleshoot occurred while deploying the Book Review application on AWS using Terraform. The RDS database creation was failing because I had configured the database to use MySQL 8.0 while specifying the default.mysql8.4 parameter group, which was incompatible with the selected engine version.
+
+I used Claude to analyze the Terraform error message and review the RDS configuration. It identified the version mismatch and recommended changing the parameter group to default.mysql8.0 so that it matched the MySQL engine version.
+
+After making the change, I ran terraform fmt, terraform validate, and terraform plan before applying the configuration again. The database was then created successfully.
+
 
 ### 15. Describe one recommendation you reviewed, modified, or rejected instead of accepting blindly.
 
-Write your answer here.
+During the final architecture review, Claude recommended several production-oriented improvements, including deploying a NAT Gateway in each Availability Zone and replacing the static EC2 instances with Auto Scaling Groups.
 
----
+I reviewed these recommendations against the specific requirements and scope of my Book Review capstone rather than implementing them automatically. While the recommendations would provide additional resilience and scalability for a production environment, they would also introduce additional infrastructure complexity and increased costs that were not necessary for the assignment.
+
+I therefore kept the simpler architecture that satisfied the capstone requirements. This reinforced an important lesson for me: AI recommendations are engineering input that must be evaluated against requirements, constraints, cost, and architecture—not decisions that should be accepted blindly.
+
+
 
 # Task 10 — Publish the Mandatory LinkedIn Post
 
@@ -441,9 +496,9 @@ Write the post in your own words, include at least one project image or other pr
 
 ## LinkedIn Post URL
 
-**LinkedIn Post URL:** Add your LinkedIn post URL here
+**LinkedIn Post URL:**  https://www.linkedin.com/posts/felix-nwobodo-2a191856_aws-terraform-devops-ugcPost-7511866554938994688-OOXS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE
 
----
+
 
 # Submission Instructions
 
