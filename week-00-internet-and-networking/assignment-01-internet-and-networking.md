@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![alt text](<screenshot of your interaction about protocol.png>)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,9 +34,8 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+A networking protocol is a shared set of rules that tells devices how to communicate so they can understand each other and exchange information successfully.
 
----
 
 # 🌐 Task 2: Internet and Networking
 
@@ -59,9 +58,12 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+EpicReads is hosted on a server in Finland, but users anywhere in the world can access it through the internet. When a user enters the website address, the IP address identifies the server where EpicReads is hosted. The user's request is broken into small pieces of data called packets, which travel across different networks using packet switching. Each packet can take the best available route before reaching the server in Finland.
 
----
+TCP/IP provides the basic rules for delivering these packets reliably between the user's device and the EpicReads server. Once the request reaches the server, HTTP or HTTPS is used to request and receive the website's pages and information. HTTPS is the secure version and protects the communication from being easily read by others.
+
+In short, TCP/IP moves the data, packet switching helps it travel efficiently, the IP address identifies the destination, and HTTP/HTTPS handles website communication.
+
 
 # 🏗️ Task 3: Application Architecture & Stack
 
@@ -91,7 +93,7 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![alt text](<architecture diagram for 2 and 3 tier.png>)
 
 
 Replace `task-3-diagram.png` with your actual diagram file name.
@@ -102,18 +104,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+React.js
+css
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+Node.js
+Javascript
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+Mysql
+MongoDB
 
 ---
 
@@ -142,9 +144,10 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+DNS (Domain Name System) is like the internet’s phonebook. It translates easy-to-remember domain names, such as epicreads.com, into IP addresses that computers use to locate servers.
 
----
+For EpicReads, an A record should be used because it connects a domain name to an IPv4 address. The A record would point epicreads.com to 52.172.142.222. However, DNS does not normally include the :3000 port number. The server or a reverse proxy would need to handle that port separately so users can simply visit epicreads.com instead of typing the IP address and port.
+
 
 # 💻 Task 5: Visual Studio Code Setup (Hands-on)
 
@@ -178,7 +181,7 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![alt text](<VS Code environment showing dir command on powershell.png>)
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
@@ -229,16 +232,14 @@ Hashtags:
 
 #DMIByPravinMishra #AgenticAI #DevOps
 
-Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your public DMI progress page (your graded badge page).
+Replace `https://github.com/Felimek28` with your GitHub username — that link is your public DMI progress page (your graded badge page).
 ---
 
 ## LinkedIn Post URL
 
 Paste your LinkedIn post URL here:
 
-```text
-Add your URL here...
-```
+https://www.linkedin.com/posts/felix-nwobodo-2a191856_learning-devops-cloudcomputing-ugcPost-7389282072856788993-juoT/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE
 
 ---
 
@@ -246,29 +247,42 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+I recently got free access from renowned trainer Pravin Mishra to join DevOps for beginners training on Udemy.
 
----
+Here, I have learned: 
+Task 1️⃣ How to us ChatGPT as my learning assistant - One of my first lessons was understanding how to prompt ChatGPT effectively. By asking clear, specific, and well-structured questions, I can get detailed, and beginner-friendly explanations.
+
+ Task 2️⃣ Internet & Networking – I learned what the internet is and how networking works. How devices connect and communicate globally. Concept of protocols in networking such as, IP, TCP, HTTPS etc were perfectly understood. These are set of rules for data exchange. Also packet switching, which ensures efficient and reliable data transfer was well understood. 
+
+Task 3️⃣ Application Architecture & Stack , explaining the difference between: *Two-Tier Apps - Frontend which is directly connected to the Database. *Three-Tier Apps - Frontend, Backend, and Database separated into layers for scalability, security, and performance. I also discovered common tools for each layer, such as React.js, CSS(frontend), Node.js, Django, Javascript (backend), and MySQL/MongoDB (database). 
+
+Task 4️⃣ Domain Name System (DNS), which is the Internet’s phonebook, this translates easy-to-remember domain names into IP addresses that computers use to find each other. DNS record types which are; A Records, AAAA Records, CNAME Record, etc. 
+
+Task 5️⃣ VS Code Setup - I successfully set up Visual Studio Code for development, installed some extensions, and configured my workspace. 
+Basic Linux commands such as pwd, dir, ls were demonstrated on my VS Code terminal.
+Stay tuned as I will be updating my learning and practicing experience as I delve deeper into DevOps and Cloud Computing. All Thanks to Pravin Mishra.
+
+P.S. This post is part of the FREE DevOps Micro Internship Cohort run by Pravin Mishra. You can start your DevOps journey for free from his YouTube Playlist https://lnkd.in/euf7MuQD
+
+
+#learning
+#devOps
+#cloudcomputing
+
 
 # Reflection – Week 0
 
 ### What did you find easy?
 
-Add your answer here...
-
----
+Using ChatGPT was easy to me
 
 ### What was difficult?
 
-Add your answer here...
-
----
+I struggled to install VS Code initially but later sorted it out
 
 ### What will you improve next week?
 
-Add your answer here...
-
----
+I will improve on the use of good prompt to find answer to my questions on chatGPT
 
 ## 📌 About DMI & CloudAdvisory
 
