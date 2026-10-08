@@ -49,7 +49,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 <!-- Add your cohort leaderboard rank here as you progress -->
 
-> 🥇 Cohort 3 Rank: **#64** <!-- Update this each week -->
+> 🥇 Cohort 3 Rank: **#53** <!-- Update this each week -->
 
 ---
 
@@ -130,7 +130,7 @@ Week 03 → Linux & Bash for DevOps
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | 🔄 In Progress | ⏳ Pending |https://lnkd.in/p/dDAVSVm9  | — |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://lnkd.in/p/dDAVSVm9  | — |
 | 01 | Success Mindset | ✅ Completed| ✅ Solved| https://lnkd.in/p/du4dcPqx | https://medium.com/@felixemeka28/from-broadcast-control-rooms-to-cloud-infrastructure-how-felix-emeka-built-career-across-two-09ebc4af885d |
 | 02 | Agentic AI with Claude Code | ✅ Completed |✅ Solved | https://lnkd.in/p/dR8Ww9nd | — |
 | 03 | Linux & Bash for DevOps | ✅ Completed| ✅ Solved | https://lnkd.in/p/dCsc8c9V | — |
