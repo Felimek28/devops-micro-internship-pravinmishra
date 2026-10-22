@@ -94,8 +94,8 @@ Week 03 → Linux & Bash for DevOps
  Week 08 → Terraform 
 [![Week 08 – Terraform](./badges/week-08.svg)](./week-08-terraform/)
 
-<!-- Week 09 → Ansible -->
-<!-- [![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/) -->
+ Week 09 → Ansible
+[![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/)
 
 <!-- Week 10 → Azure DevOps CI/CD -->
 <!-- [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) -->
@@ -139,7 +139,7 @@ Week 03 → Linux & Bash for DevOps
 | 06 | AWS Cloud | ✅ Completed| ✅ Solved  |[Linkedin post week 06] https://www.linkedin.com/posts/felix-nwobodo-2a191856_aws-cloudcomputing-devops-activity-7503452477220950017-Xomj?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE |[Blog post week 06]https://medium.com/@felixemeka28/deploying-a-book-review-3-tier-application-on-aws-a-step-by-step-hands-on-guide-c041f454e90e |
 | 07 | Azure Cloud | ✅ Completed | ✅ Solved |[Linkedin post week 07] https://www.linkedin.com/posts/felix-nwobodo-2a191856_microsoftazure-azure-cloudcomputing-ugcPost-7508140795183497217--swW/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE             |[Blog post week 07] https://medium.com/@felixemeka28/deploying-a-production-style-three-tier-book-review-application-on-microsoft-azure-97cb8cac8178 |
 | 08 | Terraform | ✅ Completed | ✅ Solved|[Linkedin post week 08] https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-aws-terraform-ugcPost-7509657265923252224-yPZk/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE |[Blog post week 08]https://medium.com/@felixemeka28/from-manual-infrastructure-to-infrastructure-as-code-deploying-a-secure-three-tier-book-review-1aea1ba9cd14 |
-| 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
+| 09 | Ansible | ✅ Completed |✅ Solved | https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-aws-terraform-ugcPost-7516549868560068609-mqOk/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE | https://medium.com/@felixemeka28/automating-mini-finance-website-deployment-on-aws-using-terraform-and-ansible-13f1f5fe0460 |
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
