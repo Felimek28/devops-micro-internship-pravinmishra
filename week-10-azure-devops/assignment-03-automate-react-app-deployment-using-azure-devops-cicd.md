@@ -37,9 +37,8 @@ Add a screenshot of Azure Repos showing:
 * `main` branch
 * Project files
 
-Add your screenshot here.
+![alt text](<Imported React App repository.png>)
 
----
 
 # Task 2 — Provision and Configure the Target VM
 
@@ -81,7 +80,8 @@ Add a screenshot of the Azure Pipeline YAML open in the editor showing:
 * Publish stage
 * Deploy stage
 
-Add your screenshot here.
+![alt text](<Azure Pipeline YAML open in the editor showing.png>)
+
 
 > Do not expose passwords, private keys, tokens, or cloud credentials.
 
@@ -104,9 +104,7 @@ Add a screenshot of one Azure DevOps pipeline run showing all four stages succee
 * Publish
 * Deploy
 
-Add your screenshot here.
-
----
+![alt text](<Azure DevOps pipeline run showing all four stages succeeded.png>)
 
 # Task 6 — Verify the Deployment on the VM
 
@@ -122,9 +120,7 @@ Add a screenshot of the pipeline SSH verification log or VM terminal showing the
 
 `/var/www/html`
 
-Add your screenshot here.
-
----
+![alt text](<VM terminal showing the post-deployment contents of .png>)
 
 # Task 7 — Verify the Website and Automatic Trigger
 
@@ -143,15 +139,16 @@ Add a browser screenshot showing:
 * Your Full Name
 * Deployment date
 
-Add your screenshot here.
+![alt text](<Browser showing react app.png>)
+
 
 ## Final Application URL
 
-`http://<vm-public-ip>`
+`http://13.223.204.46`
 
 Replace the placeholder and paste your final application URL below:
 
-[Paste your final application URL here.]
+[http://13.223.204.46]
 
 ---
 
@@ -159,9 +156,19 @@ Replace the placeholder and paste your final application URL below:
 
 Write a short explanation of the CI/CD workflow you created.
 
-[Write your summary here.]
+I created a four-stage CI/CD pipeline using Azure DevOps to automate the building, testing, publishing, and deployment of a React application hosted on AWS EC2.
 
----
+The workflow consists of four stages:
+
+1.Build: The pipeline retrieves the React application source code from Azure Repos, installs dependencies using npm, and generates a production build.
+2.Test: Automated tests are executed to verify that the application works correctly before deployment.
+3.Publish: The successfully built application files are packaged and published as pipeline artifacts for deployment.
+4.Deploy: The pipeline uses an SSH service connection to transfer the production files to an AWS EC2 Ubuntu server, where Nginx serves the React application.
+
+I configured an Azure DevOps self-hosted Linux agent running on AWS EC2 to execute the pipeline jobs. Each stage depends on the successful completion of the previous stage, helping prevent failed builds or tests from progressing to deployment.
+
+This project helped me understand how Azure DevOps, AWS EC2, Git, npm, SSH, and Nginx work together to automate software delivery and reduce manual deployment tasks.
+
 
 # LinkedIn Requirement
 
@@ -174,11 +181,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+![alt text](<Linkedin Post for React app.png>)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+[https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-azuredevops-aws-ugcPost-7521227657771155456-AB1y/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE]
 
 > Do not expose VM passwords, tokens, private keys, cloud credentials, or other sensitive information.
 

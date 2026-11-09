@@ -58,9 +58,7 @@ Add a screenshot from AWS or Azure showing:
 * VM status as **Running**
 * Public IP address
 
-Add your screenshot here.
-
----
+![alt text](<Ubuntu VM Running.png>)
 
 ### Screenshot 2 — Ubuntu, Architecture, and HTTPS Verification
 
@@ -72,9 +70,7 @@ Add an SSH terminal screenshot showing the output of:
 
 The screenshot must confirm a supported Ubuntu version, `x86_64` architecture, and a successful HTTP response from Azure DevOps.
 
-Add your screenshot here.
-
----
+![alt text](<Ubuntu, Architecture, and HTTPS Verification.png>)
 
 # Task 4 — Install and Configure the Azure Pipelines Agent
 
@@ -93,7 +89,12 @@ Add a terminal screenshot showing:
 * Agent service start
 * `sudo ./svc.sh status` reporting that the service is running
 
-Add your screenshot here.
+![alt text](<Successful Agent Configuration .png>)
+
+![alt text](<Agent service installation and start.png>)
+
+![alt text](<sudo .slash svc.sh status reporting that the service is running.png>)
+
 
 > Ensure that the PAT is not visible.
 
@@ -116,9 +117,8 @@ Add a screenshot of the Azure DevOps Agent Pool **Agents** page showing:
 * Agent status as **Online**
 * Agent enabled and available
 
-Add your screenshot here.
+![alt text](<Azure DevOps Agent Pool Agents page showing.png>)
 
----
 
 # Task 6 — Create and Run a Test Pipeline
 
@@ -138,9 +138,8 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * Your Full Name
 * Linux verification commands
 
-Add your screenshot here.
+![alt text](<azure-pipelines.yml open in the Azure Repos editor showing.png>)
 
----
 
 ### Screenshot 6 — Successful Test Pipeline
 
@@ -156,16 +155,34 @@ Add a screenshot of the successful Azure DevOps pipeline run showing:
 * Output from `df -h`
 * Output from `pwd`
 
-Add your screenshot here.
+![alt text](<successful Azure DevOps pipeline run showing.png>)
 
----
 
 ## Completed azure-pipelines.yml
 
 Paste the contents of your completed `azure-pipelines.yml` file below.
 
 ```yaml
-# Paste your completed azure-pipelines.yml here
+trigger: none
+ 
+pool:
+  name: SelfHostedPool
+
+ 
+steps:
+  - bash: |
+      echo "Submitted by: Felix Emeka Nwobodo"
+      echo "Agent name: $(Agent.Name)"
+      echo "Machine name: $(Agent.MachineName)"
+      echo "Operating system details:"
+      uname -a
+      echo "User executing the pipeline:"
+      whoami
+      echo "Disk usage:"
+      df -h
+      echo "Current working directory:"
+      pwd
+    displayName: Verify self-hosted Ubuntu agent
 ```
 
 > Do not include your PAT, SSH private key, password, or cloud credentials in the YAML file.
@@ -176,9 +193,17 @@ Paste the contents of your completed `azure-pipelines.yml` file below.
 
 Write a short summary of what you configured.
 
-[Write your summary here.]
+### Summary of My Azure DevOps Self-Hosted Agent Configuration
 
----
+I successfully configured an Azure DevOps self-hosted CI/CD agent using an Ubuntu 24.04 EC2 instance hosted on AWS.
+
+I used Terraform to provision the EC2 instance, installed and registered the Azure Pipelines agent using a Personal Access Token (PAT), and connected it to a custom agent pool named SelfHostedPool.
+
+I also created an Azure DevOps project called self-hosted-agent-lab, initialized an Azure Repos Git repository, and configured an azure-pipelines.yml file to execute a Bash verification script.
+
+After correcting a YAML syntax error, I successfully ran the pipeline on my AWS-hosted agent, SelfHostedAgentVM. The pipeline verified the agent name, machine hostname, operating system, execution user, disk usage, and working directory.
+
+Outcome: I successfully demonstrated how Azure DevOps can execute CI/CD pipeline jobs on a self-hosted Ubuntu agent running in AWS, establishing a foundation for future automated application builds, testing, and deployments.
 
 # LinkedIn Requirement (If Applicable)
 
@@ -193,7 +218,9 @@ Add a screenshot of your LinkedIn post showing:
 
 Add your screenshot here.
 
-**LinkedIn Post URL:** [Paste your LinkedIn post URL here]
+![alt text](<Linkedin post for Azure devops assignment 1.png>)
+
+**LinkedIn Post URL:** [https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-azuredevops-aws-ugcPost-7519832562333134849-3Rsk/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE]
 
 ---
 

@@ -70,7 +70,7 @@ Add a screenshot of the Infrastructure Pipeline run showing:
 * `backend_private_ip`
 * `mysql_fqdn`
 
-Add your screenshot here.
+![alt text](<Successful Infrastructure Pipeline run showing.png>)
 
 > Do not expose the MySQL password, Client Secret, Terraform state, SSH private key, or another sensitive value.
 
@@ -86,7 +86,10 @@ Add a screenshot of the Azure Portal Resource Group overview showing:
 * Azure Database for MySQL Flexible Server
 * Related EpicBook resources
 
-Add your screenshot here.
+![alt text](<AWS portal showing the epicbook  dual pipeline infrastructure.png>)
+
+![alt text](<AWS portal showing the epicbook  mysql.png>)
+
 
 > Hide sensitive IDs, credentials, and database details.
 
@@ -124,7 +127,7 @@ Run the Application Pipeline to configure the VMs, deploy EpicBook, and verify t
 
 Add a screenshot of the Application Pipeline run summary showing all required stages or jobs succeeded.
 
-Add your screenshot here.
+![alt text](<Application Pipeline run summary showing all required stages or jobs succeeded.png>)
 
 ---
 
@@ -137,7 +140,7 @@ Add a screenshot of the Application Pipeline log showing:
 * Zero failed hosts
 * Zero unreachable hosts
 
-Add your screenshot here.
+![alt text](<Successful Ansible Play Recap.png>)
 
 > Do not expose the SSH private key, MySQL password, Client Secret, or complete database connection string.
 
@@ -162,7 +165,7 @@ Add a browser screenshot showing:
 
 The screenshot may show a product, cart, or successful order view.
 
-Add your screenshot here.
+![alt text](<Running EpicBook Application on browser.png>)
 
 > Do not expose credentials or sensitive information.
 
@@ -172,15 +175,15 @@ Add your screenshot here.
 
 ## Frontend Application URL
 
-[Paste your final EpicBook application URL here.]
+[http://13.220.6.126]
 
 ## Infrastructure Repository URL
 
-[Paste your Infrastructure Repository URL here.]
+[https://github.com/Felimek28/infra-epicbook.git]
 
 ## Application Repository URL
 
-[Paste your Application Repository URL here.]
+[https://github.com/Felimek28/theepicbook-cicd.git]
 
 ---
 
@@ -188,7 +191,13 @@ Add your screenshot here.
 
 Write a short explanation of why separate Infrastructure and Application Repositories were used.
 
-[Write your explanation here.]
+[Separate Infrastructure and Application repositories were used to achieve a clear separation of responsibilities and make the deployment process easier to manage.
+
+The Infrastructure Repository contains the Terraform configuration responsible for provisioning and managing AWS resources such as the VPC, subnets, security groups, EC2 instances, and RDS database.
+
+The Application Repository contains the EpicBook application source code, Ansible playbooks, roles, inventory, and the Azure DevOps application pipeline used to configure the servers and deploy the application.
+
+This separation allows infrastructure and application changes to be managed, validated, and deployed independently. It also improves maintainability, security, reusability, and troubleshooting.]
 
 ---
 
@@ -201,7 +210,23 @@ Write a short explanation of how the following non-sensitive Terraform outputs w
 * `backend_private_ip`
 * `mysql_fqdn`
 
-[Write your explanation here.]
+[After the Infrastructure pipeline successfully provisioned the AWS resources, the required non-sensitive Terraform outputs were retrieved from the Terraform Outputs stage.
+
+The following values were transferred manually into the Application Repository, particularly the Ansible inventory and application configuration:
+
+app_public_ip: Used as the public IP address of the frontend server in the Ansible inventory.
+
+backend_ansible_host: Used as the private connection address for the backend server through the frontend bastion host.
+
+backend_private_ip: Used to identify the backend server's private IP address for internal communication.
+
+mysql_fqdn: Used as the MySQL database endpoint in the application's database configuration.
+
+These values were updated in the appropriate Ansible inventory and configuration files in the Application Repository and committed to GitHub.
+
+The Application pipeline then used the updated configuration to connect to the AWS instances through Ansible and deploy the EpicBook application.
+
+This was a manual handoff because the Terraform and Ansible pipelines operated independently, without an automated artifact or pipeline-to-pipeline transfer of infrastructure outputs. Only non-sensitive infrastructure information was transferred; passwords and other secrets were managed separately through protected Azure DevOps pipeline variables and Ansible Vault.]
 
 ---
 
@@ -216,11 +241,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+![alt text](<Linked post for dual pipeline epicbook deployment.png>)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+[https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-aws-terraform-ugcPost-7524858097702600704-5-6C/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE.]
 
 Your post must include:
 

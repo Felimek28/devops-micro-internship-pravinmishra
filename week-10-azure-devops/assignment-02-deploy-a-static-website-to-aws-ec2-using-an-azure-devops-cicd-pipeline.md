@@ -36,9 +36,8 @@ Add a screenshot of Azure Repos showing:
 * Project files
 * `index.html`
 
-Add your screenshot here.
+![alt text](<Azure Static Website in Azure Repos.png>)
 
----
 
 # Task 2 — Provision and Configure the Target EC2 Instance
 
@@ -65,7 +64,7 @@ Add a screenshot of the saved SSH Service Connection **Overview** page showing:
 * Service Connection name
 * SSH connection type
 
-Add your screenshot here.
+![alt text](<saved SSH Service Connection Overview page showing for static website.png>)
 
 > Do not expose a password, SSH private key, passphrase, or another credential.
 
@@ -91,7 +90,7 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * `CopyFilesOverSSH@0` task
 * `SSH@0` verification task
 
-Add your screenshot here.
+![alt text](<Azure-pipelines.yml for azure static website.png>)
 
 > Ensure that no password, SSH private key, PAT, or AWS credential is visible.
 
@@ -115,7 +114,7 @@ Add a screenshot of the successful pipeline run and log summary showing:
 * Remote-verification step completed
 * Your Full Name visible in the pipeline output
 
-Add your screenshot here.
+![alt text](<successful pipeline run and log summary showing my full name.png>)
 
 ---
 
@@ -136,15 +135,15 @@ Add a browser screenshot showing:
 * Your Full Name
 * Updated website content after the automatic deployment
 
-Add your screenshot here.
+![alt text](<Deployed Azure Static Website.png>)
 
 ## Final Website URL
 
-`http://<target-vm-public-ip>`
+`http://13.223.204.46/`
 
 Replace the placeholder with your actual website URL:
 
-[Paste your final website URL here]
+[http://13.223.204.46/]
 
 ---
 
@@ -152,7 +151,17 @@ Replace the placeholder with your actual website URL:
 
 Write a short summary of the completed CI/CD workflow.
 
-[Write your summary here.]
+[ Summary of the Completed CI/CD Workflow
+
+I successfully configured an automated CI/CD pipeline using Azure DevOps to deploy a static website to an AWS EC2 instance.
+
+I reused my existing AWS infrastructure provisioned with Terraform and configured with Ansible, including an Ubuntu web server running Nginx and a self-hosted Linux agent for executing pipeline jobs.
+
+I imported the static website into Azure Repos and created a YAML pipeline that automatically triggers whenever code changes are pushed to the repository.
+
+The pipeline retrieves the latest source code, displays build information, securely transfers website files to /var/www/html using CopyFilesOverSSH@0, and executes remote verification checks using SSH@0 to confirm that Nginx is running and the website is accessible.
+
+This assignment strengthened my practical understanding of CI/CD automation, Infrastructure as Code, configuration management, SSH authentication, and integrating Azure DevOps with AWS to streamline application deployment and reduce manual intervention.]
 
 ---
 
@@ -167,11 +176,11 @@ Add a screenshot of your LinkedIn post containing:
 * Three to five lines describing the CI/CD workflow
 * A screenshot of the successful pipeline or deployed website
 
-Add your screenshot here.
+![alt text](<Linkedin Post for static website using Azure Devops.png>)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here]
+[https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-devopsmicrointernship-azuredevops-ugcPost-7521169770856034304-UDOZ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE]
 
 > Do not expose AWS credentials, SSH private keys, passwords, PATs, or other sensitive information.
 
