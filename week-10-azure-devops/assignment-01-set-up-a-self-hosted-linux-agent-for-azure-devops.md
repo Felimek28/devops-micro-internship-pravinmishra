@@ -173,10 +173,8 @@ steps:
   - bash: |
       set -e
 
-      echo "======================================"
       echo "Submitted by: Felix Emeka Nwobodo"
-      echo "======================================"
-
+      
       echo "Agent name:"
       echo "$(Agent.Name)"
 
