@@ -163,25 +163,39 @@ Add a screenshot of the successful Azure DevOps pipeline run showing:
 
 Paste the contents of your completed `azure-pipelines.yml` file below.
 
+---
 trigger: none
- 
+
 pool:
   name: SelfHostedPool
 
- 
 steps:
   - bash: |
+      set -e
+
+      echo "======================================"
       echo "Submitted by: Felix Emeka Nwobodo"
-      echo "Agent name: $(Agent.Name)"
-      echo "Machine name: $(Agent.MachineName)"
+      echo "======================================"
+
+      echo "Agent name:"
+      echo "$(Agent.Name)"
+
+      echo "Machine name:"
+      echo "$(Agent.MachineName)"
+
       echo "Operating system details:"
       uname -a
+
       echo "User executing the pipeline:"
       whoami
+
       echo "Disk usage:"
       df -h
+
       echo "Current working directory:"
       pwd
+
+      echo "Agent verification completed successfully."
     displayName: Verify self-hosted Ubuntu agent
 
 
