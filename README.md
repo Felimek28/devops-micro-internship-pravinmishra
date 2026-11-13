@@ -49,7 +49,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 <!-- Add your cohort leaderboard rank here as you progress -->
 
-> 🥇 Cohort 3 Rank: **#44** <!-- Update this each week -->
+> 🥇 Cohort 3 Rank: **#42** <!-- Update this each week -->
 
 ---
 
@@ -100,8 +100,8 @@ Week 03 → Linux & Bash for DevOps
 Week 10 → Azure DevOps CI/CD 
 [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/)
 
-<!-- Week 11 → Docker -->
-<!-- [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/) -->
+Week 11 → Docker
+[![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/)
 
 <!-- Week 12 → Kubernetes -->
 <!-- [![Week 12 – K8s](./badges/week-12.svg)](./week-12-kubernetes/) -->
@@ -131,7 +131,7 @@ Week 10 → Azure DevOps CI/CD
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved |[Linkedin post week 00] https://lnkd.in/p/dDAVSVm9|[Blog post week 00]https://medium.com/@felixemeka28/week-0-reflection-understanding-the-internet-networking-my-devops-journey-at-dmi-d08ddb89a13c|
-| 01 | Success Mindset | ✅ Completed| ✅ Solved|[Linkedin post week 01]https://lnkd.in/p/du4dcPqx|[Blog post week 01]https://medium.com/@felixemeka28/from-broadcast-control-rooms-to-cloud-infrastructure-how-felix-emeka-built-career-across-two-09ebc4af885d |
+| 01 | Success Mindset | ✅ Completed| ✅ Solved|https://www.linkedin.com/posts/felix-nwobodo-2a191856_successmindset-devops-cloud-share-7478509611529129986-AZUW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE|[Blog post week 01]https://medium.com/@felixemeka28/from-broadcast-control-rooms-to-cloud-infrastructure-how-felix-emeka-built-career-across-two-09ebc4af885d |
 | 02 | Agentic AI with Claude Code | ✅ Completed |✅ Solved |[Linkedin post week 02]https://lnkd.in/p/dR8Ww9nd | — |
 | 03 | Linux & Bash for DevOps | ✅ Completed| ✅ Solved |[Linkedin post week 03]https://lnkd.in/p/dCsc8c9V | — |
 | 04 | Git & GitHub |✅ Completed |✅ Solved |[Linkedin post week 04] https://lnkd.in/p/emtSSs2c|[Blog post week 04]https://medium.com/@felixemeka28/learning-open-source-collaboration-with-git-and-github-from-fork-to-pull-request-655ef5652b75 |
@@ -141,7 +141,7 @@ Week 10 → Azure DevOps CI/CD
 | 08 | Terraform | ✅ Completed | ✅ Solved|[Linkedin post week 08] https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-aws-terraform-ugcPost-7509657265923252224-yPZk/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE |[Blog post week 08]https://medium.com/@felixemeka28/from-manual-infrastructure-to-infrastructure-as-code-deploying-a-secure-three-tier-book-review-1aea1ba9cd14 |
 | 09 | Ansible | ✅ Completed |✅ Solved | https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-aws-terraform-ugcPost-7516549868560068609-mqOk/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE | https://medium.com/@felixemeka28/automating-mini-finance-website-deployment-on-aws-using-terraform-and-ansible-13f1f5fe0460 |
 | 10 | Azure DevOps (CI/CD) | ✅ Completed|  ✅ Solved |https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-azuredevops-aws-ugcPost-7519832562333134849-3Rsk/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE |https://medium.com/@felixemeka28/automating-epicbook-deployment-with-dual-azure-devops-pipelines-aws-terraform-and-ansible-f1d378b36f7e|
-| 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
+| 11 | Docker | ✅ Completed | ✅ Solved |https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-aws-amazonec2-ugcPost-7526327019685728256-56Cb/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 
