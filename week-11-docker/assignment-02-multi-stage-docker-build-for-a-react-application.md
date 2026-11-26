@@ -30,9 +30,8 @@ cat .dockerignore
 
 The file must exclude `node_modules`, `build`, and `.env`.
 
-Add your screenshot here.
+![alt text](<Contents of the .dockerignore File.png>)
 
----
 
 # Task 2 — Create a Single-Stage Docker Image
 
@@ -46,9 +45,8 @@ Create a baseline single-stage Docker image and run the application on port 3000
 
 Add a screenshot showing the completed `Dockerfile.single`.
 
-Add your screenshot here.
+![alt text](<Contents of Dockerfile.single.png>)
 
----
 
 #### Screenshot 3 — Single-Stage Application in Browser
 
@@ -60,9 +58,7 @@ http://localhost:3000
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
-
----
+![alt text](<Single-Stage Application in Browser.png>)
 
 # Task 3 — Create a Multi-Stage Docker Build
 
@@ -76,9 +72,7 @@ Create an optimized multi-stage Docker image with separate builder and Nginx run
 
 Add a screenshot showing the completed multi-stage `Dockerfile`.
 
-Add your screenshot here.
-
----
+![alt text](<Content of multi-stage dockerfile.png>)
 
 #### Screenshot 5 — Multi-Stage Application in Browser
 
@@ -90,9 +84,7 @@ http://localhost
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
-
----
+![alt text](<Multi-stage Dockerfile on browser.png>)
 
 # Task 4 — Compare Docker Image Sizes
 
@@ -116,28 +108,24 @@ The output must include both:
 react-single:latest
 react-multistage:latest
 ```
-
-Add your screenshot here.
-
----
+![alt text](<Docker Image Size Comparison.png>)
 
 ### Percentage Reduction Calculation
 
 Record the image sizes and calculate the reduction using the same unit for both images.
 
 ```text
-Single-stage image size: Add size here
+Single-stage image size: 172MB
 
-Multi-stage image size: Add size here
+Multi-stage image size:  26.7MB 
 
 Percentage reduction =
-((Single-stage image size − Multi-stage image size)
-÷ Single-stage image size) × 100
+((172 − 26.7)
+÷ 172) × 100
 
-Percentage reduction: Add result here
+Percentage reduction: 84.48%
+
 ```
-
----
 
 # Task 5 — Analyze the Optimization Results
 
@@ -156,28 +144,35 @@ Write a short analysis of 5–8 lines covering:
 - How smaller images improve image pull and deployment speed
 - One Docker build-caching optimization you used
 
-Write your analysis here.
 
----
+1.The single-stage Docker image (react-single) has a content size of 172 MB, while the multi-stage image (react-multistage) is only 26.7 MB.
+2.This represents an 84.48% reduction in image size, saving approximately 145.3 MB.
+3.The multi-stage build improves security by excluding unnecessary build tools, development dependencies, and Node.js from the final runtime image.
+4.Using a lightweight Nginx Alpine runtime reduces the attack surface by minimizing the software and components available in the container.
+5.Smaller Docker images improve image pull times, reduce network bandwidth consumption, and make application deployments faster.
+6.I optimized Docker build caching by copying package.json and installing dependencies with npm ci before copying the application source code.
+7.This allows Docker to reuse the dependency installation layer when application source files change, reducing unnecessary rebuild time.
 
-# Task 6 — Explore Additional Production Optimizations (Optional)
+
+
+# Task 6 - Explore Additional Production Optimization (Optional)
 
 ## Goal
 
 Explore one or more additional production optimization techniques.
 
-### Optional Work
+## Optional Work
 
-You may choose to:
+I implemented the following production optimizations:
 
-- Configure an Nginx health check
-- Configure cache headers for static assets
-- Experiment with a lighter runtime image
-- Compare the resulting image size with your original multi-stage image
+- Configured an Nginx health check to monitor container health.
+- Configured cache headers for static assets to improve browser caching.
+- Retained Nginx Alpine as the lightweight production runtime.
 
-Screenshots are optional.
+### Screenshot 7 — Docker Health Check
 
----
+![alt text](<docker health check.png>)
+
 
 # LinkedIn Requirement
 
@@ -185,21 +180,22 @@ Screenshots are optional.
 
 Create a LinkedIn post describing what you built, what a multi-stage Docker build is, the image-size reduction achieved, and key learnings from the assignment.
 
-### Evidence
+## Evidence
 
-#### LinkedIn Post URL
+### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+[View my LinkedIn post] (https://www.linkedin.com/posts/felix-nwobodo-2a191856_devops-docker-dockerbuild-ugcPost-7527731592367353856-ShHN/)
 
-`Add your URL here`
 
----
 
-#### LinkedIn Post Screenshot
+### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+![alt text](<Linkedin post for multi-stage docker built-1.png>)
 
----
+
+# Submission Instructions
+
+
 
 # Submission Instructions
 

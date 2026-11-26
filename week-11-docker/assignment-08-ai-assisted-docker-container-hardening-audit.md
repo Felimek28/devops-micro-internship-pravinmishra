@@ -12,7 +12,7 @@ In this assignment, you will build a read-only Bash script that audits a running
 
 # Target Container
 
-**Target Container Name:** `Add the exact container name here`
+**Target Container Name:** `epicbook-backend`
 
 ---
 
@@ -33,7 +33,7 @@ docker-audit.sh
 SKILL.md
 ```
 
-Add your screenshot here.
+![alt text](<Audit Workspace Files.png>)
 
 ---
 
@@ -49,7 +49,7 @@ Add the supplied `docker-audit` skill to Claude Code and confirm that it is avai
 
 Add a screenshot of Claude Code showing `docker-audit` in the available skill list.
 
-Add your screenshot here.
+![alt text](<Docker Audit Skill Available in Claude Code.png>)
 
 ---
 
@@ -70,7 +70,7 @@ Add a terminal screenshot showing:
 - Your full name
 - The usage message displayed when the script runs without a container name
 
-Add your screenshot here.
+![alt text](<Script Validation.png>)
 
 ---
 
@@ -90,7 +90,7 @@ Add a terminal screenshot showing:
 - `docker ps`
 - The audit command using the selected target container name
 
-Add your screenshot here.
+![alt text](<Selected Target Container.png>)
 
 ---
 
@@ -98,7 +98,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing the initial Docker audit results.
 
-Add your screenshot here.
+![alt text](<Initial Audit Results.png>)
 
 ---
 
@@ -119,8 +119,9 @@ Add a Claude Code screenshot showing:
 - Recommended manual fix
 - Verification method
 
-Add your screenshot here.
+![alt text](<Audit Explanation and Recommended Fix.png>)
 
+![alt text](<Audit Explanation and Recommended Fix2.png>)
 ---
 
 # Task 6 — Apply One Container-Hardening Fix
@@ -135,7 +136,7 @@ Manually fix one WARN or FAIL finding from the initial audit.
 
 Add a screenshot of the updated Dockerfile or `docker-compose.yml` showing the selected hardening fix.
 
-Add your screenshot here.
+![alt text](<Hardening Configuration Change.png>)
 
 ---
 
@@ -143,7 +144,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing your full name and the rebuilt or recreated service/container running successfully.
 
-Add your screenshot here.
+![alt text](<Updated Service Running.png>)
 
 ---
 
@@ -163,7 +164,7 @@ Add a terminal screenshot showing:
 - The updated running container
 - The final audit report
 
-Add your screenshot here.
+![alt text](<Final Audit Results.png>)
 
 ---
 
@@ -176,7 +177,28 @@ Write a short comparison covering:
 - Final audit result
 - Security benefit of the improvement
 
-Write your comparison here.
+
+1.Initial Audit Finding
+
+The initial audit of epicbook-backend identified one warning: the backend image was using an automatically generated image reference with the default latest tag. The other five security checks passed.
+
+2.Docker Compose Change Applied
+
+I manually updated the backend service in docker-compose.yml by adding an explicit image name and version:
+
+image: epicbook-backend:1.0.0
+
+I then rebuilt and recreated only the backend service using:
+
+docker compose up -d --build --no-deps backend
+
+3.Final Audit Result
+
+The rebuilt container was running and healthy with the new image tag epicbook-backend:1.0.0. The final audit is expected to show all six checks passing, including the previously flagged image-tag check.
+
+4.Security Benefit
+
+Using an explicit image version improves image traceability and deployment consistency. It makes it easier to identify which application version is deployed, reproduce builds, and manage future rollbacks rather than relying on an ambiguous latest tag.
 
 ---
 
@@ -188,13 +210,13 @@ Create a LinkedIn post about the container security checks you performed, one ha
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** `https://www.linkedin.com/posts/felix-nwobodo-2a191856_docker-devops-devsecops-ugcPost-7531786466599997440-YI8d/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE`
 
 #### LinkedIn Post Screenshot
 
 Add a screenshot of the published LinkedIn post, including the final audit result.
 
-Add your screenshot here.
+![alt text](<Linkedin Post for AI assisted docker container hardening.png>)
 
 ---
 

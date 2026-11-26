@@ -28,7 +28,7 @@ docker network ls
 
 The output must include the default `bridge`, `host`, and `none` networks.
 
-Add your screenshot here.
+![alt text](<Available Docker Networks.png>)
 
 ---
 
@@ -40,7 +40,7 @@ Add a screenshot of the terminal showing successful completion of:
 docker pull nginx:alpine
 ```
 
-Add your screenshot here.
+![alt text](<Successful docker pull nginx alpine .png>)
 
 ---
 
@@ -58,7 +58,7 @@ The output must show the running `myweb` container with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+![alt text](<Running myweb Container.png>)
 
 ---
 
@@ -72,7 +72,7 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](<Nginx Welcome Page.png>)
 
 ---
 
@@ -92,7 +92,7 @@ Add a screenshot of the terminal showing `mynetwork` in:
 docker network ls
 ```
 
-Add your screenshot here.
+![alt text](<Custom Bridge Network Created.png>)
 
 ---
 
@@ -106,7 +106,7 @@ docker ps
 
 The output must show both `web` and `client` containers running without published host ports.
 
-Add your screenshot here.
+![alt text](<Running web and client Containers.png>)
 
 ---
 
@@ -120,7 +120,7 @@ docker exec client wget -qO- http://web
 
 The output must display the Nginx Welcome Page HTML.
 
-Add your screenshot here.
+![alt text](<Service Discovery by Container Name- accessing web container from client .png>)
 
 ---
 
@@ -134,7 +134,7 @@ docker network inspect mynetwork
 
 The output must show both `web` and `client` connected to `mynetwork`.
 
-Add your screenshot here.
+![alt text](<Custom Network inspection.png>)
 
 ---
 
@@ -156,7 +156,7 @@ docker network ls
 
 The output must include both `frontend-network` and `backend-network`.
 
-Add your screenshot here.
+![alt text](<Two docker networks.png>)
 
 ---
 
@@ -174,7 +174,7 @@ The output must show:
 - `backend` without a published host port
 - `db` without a published host port
 
-Add your screenshot here.
+![alt text](<Running Multi-Network Containers.png>)
 
 ---
 
@@ -188,7 +188,7 @@ docker network inspect frontend-network
 
 The output must show `frontend` and `backend`.
 
-Add your screenshot here.
+![alt text](<Frontend Network Inspection.png>)
 
 ---
 
@@ -202,7 +202,7 @@ docker network inspect backend-network
 
 The output must show `backend` and `db`.
 
-Add your screenshot here.
+![alt text](<Backend Network Inspection.png>)
 
 ---
 
@@ -216,7 +216,7 @@ docker exec frontend wget -qO- http://backend
 
 The output must display the Nginx Welcome Page HTML.
 
-Add your screenshot here.
+![alt text](<Frontend-to-Backend Communication.png>)
 
 ---
 
@@ -224,7 +224,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing a successful connection to `db` on port `27017` from the `backend` container.
 
-Add your screenshot here.
+![alt text](<Backend-to-Database Communication.png>)
 
 ---
 
@@ -238,7 +238,7 @@ The output must include:
 Expected result: frontend cannot reach db
 ```
 
-Add your screenshot here.
+![alt text](<Frontend-to-Database Isolation.png>)
 
 ---
 
@@ -252,7 +252,7 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](<Public Frontend Access.png>)
 
 ---
 
@@ -274,7 +274,7 @@ docker ps
 
 The output must show the running `fastapp` container.
 
-Add your screenshot here.
+![alt text](<Running Host-Networked Container.png>)
 
 ---
 
@@ -292,7 +292,7 @@ The output must confirm:
 "NetworkMode": "host"
 ```
 
-Add your screenshot here.
+![alt text](<Host Network Mode Verification.png>)
 
 ---
 
@@ -306,7 +306,7 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](<Host-Networked Nginx Page.png>)
 
 ---
 
@@ -319,7 +319,7 @@ docker stop fastapp
 docker rm fastapp
 ```
 
-Add your screenshot here.
+![alt text](<Host-Networked Container Cleanup.png>)
 
 ---
 
@@ -332,7 +332,23 @@ Write a short note explaining:
 - Why the frontend could not access the database in Task 3
 - The difference between bridge mode and host network mode
 
-Write your note here.
+Default Bridge Networking:
+The default bridge network is the network Docker automatically creates when it is installed. Containers connected to this network can communicate with one another using their IP addresses. However, automatic container-name DNS resolution is not supported on the default bridge network. Containers generally need to communicate using IP addresses or legacy linking.
+
+Container-Name Communication on a Custom Bridge Network:
+A custom bridge network allows containers connected to the same network to communicate using their container names instead of IP addresses.
+Docker provides an internal DNS service that automatically resolves container names to their corresponding IP addresses.
+
+
+Why the Frontend Could Not Access the Database in Task 3:
+In Task 3, the frontend container was connected only to frontend-network, while the database (db) container was connected only to backend-network. Since Docker custom bridge networks provide network isolation and do not automatically route traffic between separate networks, the frontend could not communicate directly with the database. However, the backend container, which was connected to both networks, could communicate with both the frontend and the database, serving as the communication link between the two network segments. This demonstrates how Docker network segmentation enhances application security by restricting direct access to sensitive services such as databases.
+
+Difference Between Bridge Mode and Host Network Mode
+Bridge Network Mode: Provides network isolation by placing containers on a virtual network separate from the host's network namespace. Containers receive their own IP addresses and communicate through the virtual bridge. Port mapping using `-p` is required to expose container services to external networks or the host.
+
+Host Network Mode: Removes the container's separate network namespace by allowing it to share the host machine's network stack and IP address directly. Port mapping using `-p` is unnecessary because the container uses the host's network interfaces and ports directly. This mode can offer lower network overhead but provides less network isolation and may introduce port conflicts with other host applications.
+
+Key Difference:Bridge mode provides better network isolation and controlled port exposure, while host network mode prioritizes direct network access and reduced networking overhead at the expense of isolation.
 
 ---
 
@@ -348,13 +364,14 @@ Create a LinkedIn post about the Docker networking modes explored, one key lesso
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/felix-nwobodo-2a191856_docker-dockernetworking-devops-ugcPost-7528033213856845824-NDlN/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAvh1JkBJ6D4mRJp1t4mfqeNh2YQjVD8ZhE
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+![alt text](<Linkedin Post for Docker networking.png>)
+
 
 ---
 
