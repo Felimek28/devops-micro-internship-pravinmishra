@@ -24,7 +24,7 @@ Add a terminal screenshot showing the EpicBook project structure after cloning t
 
 ![alt text](<EpicBook Project Structure.png>)
 
----
+
 
 #### Screenshot 2 — Architecture Diagram
 
@@ -56,7 +56,7 @@ It must document environment-variable names, internal ports, persistent-data det
 
 ![alt text](<Environment Variables and Ports Document.png>)
 
----
+
 
 # Task 1 — Create Production Docker Images
 
@@ -78,7 +78,7 @@ Add a screenshot showing `backend/Dockerfile`, including:
 
 ![alt text](<Backend Dockerfile for theepicbook-capstone.png>)
 
----
+
 
 #### Screenshot 5 — Frontend Dockerfile
 
@@ -89,7 +89,7 @@ Add a screenshot showing `frontend/Dockerfile`, including:
 
 ![alt text](<Frontend Dockerfile for theepicbook-capstone.png>)
 
----
+
 
 #### Screenshot 6 — Docker Ignore Files
 
@@ -101,7 +101,7 @@ frontend/.dockerignore
 ```
 ![alt text](<Docker Ignore Files.png>)
 
----
+
 
 #### Screenshot 7 — Docker Image Builds and Size Comparison
 
@@ -115,7 +115,7 @@ The screenshot must also show the baseline and optimized backend image-size comp
 
 ![alt text](<Docker Image Builds and Size Comparison.png>)
 
----
+
 
 #### Screenshot 8 — Backend Running as Non-Root User
 
@@ -123,7 +123,7 @@ Add a terminal screenshot showing the optimized backend container running as a n
 
 ![alt text](<Backend Running as Non-Root User.png>)
 
----
+
 
 ### Notes
 
@@ -141,7 +141,7 @@ One layer-caching optimization used was copying package.json and package-lock.js
 
 The optimized backend also runs as a non-root user (node, UID 1000). This improves security by limiting the privileges available to the application inside the container and reducing the potential impact of a security breach.
 
----
+
 
 # Task 2 — Create the Docker Compose Stack and Networks
 
@@ -164,7 +164,6 @@ database
 
 ![alt text](<Docker Compose Services.png>)
 
----
 
 #### Screenshot 10 — Networks and Named Volume
 
@@ -176,7 +175,7 @@ Add a screenshot showing:
 
 ![alt text](<Networks and Named Volume.png>)
 
----
+
 
 #### Screenshot 11 — Docker Compose Validation
 
@@ -184,7 +183,7 @@ Add a terminal screenshot showing successful Docker Compose validation without e
 
 ![alt text](<Docker Compose Validation.png>)
 
----
+
 
 # Task 3 — Configure Health Checks and Startup Dependencies
 
@@ -200,7 +199,7 @@ Add a screenshot showing the backend application configuration for the `/health`
 
 ![alt text](<Backend Health Endpoint.png>)
 
----
+
 
 #### Screenshot 13 — MySQL and Backend Health Checks
 
@@ -208,7 +207,7 @@ Add a screenshot showing `docker-compose.yml` with health checks for MySQL and t
 
 ![alt text](<MySQL and Backend Health Checks.png>)
 
----
+
 
 #### Screenshot 14 — Frontend and Reverse-Proxy Health Checks
 
@@ -220,7 +219,7 @@ Add a screenshot showing:
 
 ![alt text](<Frontend and Reverse-Proxy Health Checks.png>)
 
----
+
 
 #### Screenshot 15 — Running Healthy Services
 
@@ -228,7 +227,7 @@ Add a terminal screenshot showing Docker Compose service status. The database, b
 
 ![alt text](<Running Healthy Services.png>)
 
----
+
 
 #### Screenshot 16 — Public Health Endpoint
 
@@ -236,7 +235,7 @@ Add a terminal screenshot showing a successful response from the public applicat
 
 ![alt text](<Public Health Endpoint.png>)
 
----
+
 
 #### Screenshot 17 — Health-Check and Startup-Order Document
 
@@ -252,7 +251,7 @@ Explain the health-check method for each service and the startup dependency orde
 
 ![alt text](<Health-Check and Startup-Order Document 2.png>)
 
----
+
 
 # Task 4 — Configure the Reverse Proxy and Same-Origin Routing
 
@@ -275,7 +274,7 @@ It must show routes for:
 
 ![alt text](<Selected Reverse-Proxy Configuration.png>)
 
----
+
 
 #### Screenshot 19 — Only Reverse Proxy Publishes Port 80
 
@@ -283,7 +282,7 @@ Add a screenshot of `docker-compose.yml` showing that only the `reverse-proxy` s
 
 ![alt text](<Only Reverse Proxy Publishes Port 80.png>)
 
----
+
 
 #### Screenshot 20 — Reverse-Proxy Route Testing
 
@@ -296,7 +295,7 @@ Add a terminal screenshot showing successful requests through the selected rever
 
 ![alt text](<Reverse-Proxy Route Testing.png>)
 
----
+
 
 #### Screenshot 21 — EpicBook Application Through Public IP
 
@@ -306,7 +305,7 @@ Add your full name as a clear caption below the screenshot.
 
 ![alt text](<EpicBook Application Through Public IP.png>)
 
----
+
 
 #### Screenshot 22 — Proxy Routing and CORS Document
 
@@ -320,7 +319,7 @@ Explain the proxy routes and state whether CORS was required and why.
 
 ![alt text](<Proxy Routing and CORS Document.png>)
 
----
+
 
 # Task 5 — Prove Data Persistence, Backup, and Restore
 
@@ -336,7 +335,7 @@ Add a terminal screenshot showing the `db_data` named volume and its MySQL mount
 
 ![alt text](<MySQL Volume Configuration.png>)
 
----
+
 
 #### Screenshot 24 — Test Data Before Backup
 
@@ -344,7 +343,7 @@ Add a terminal screenshot showing the selected test data before the backup and r
 
 ![alt text](<Test Data Before Backup-1.png>)
 
----
+
 
 #### Screenshot 25 — Successful Backup Creation
 
@@ -352,7 +351,7 @@ Add a terminal screenshot showing successful backup creation and the backup file
 
 ![alt text](<Successful Backup Creation.png>)
 
----
+
 
 #### Screenshot 26 — Controlled Data-Loss Test
 
@@ -360,7 +359,6 @@ Add a terminal screenshot showing that the selected test record was removed duri
 
 ![alt text](<Controlled Data-Loss Test.png>)
 
----
 
 #### Screenshot 27 — Restore Verification
 
@@ -368,7 +366,6 @@ Add a terminal screenshot showing successful restore and verification that the d
 
 ![alt text](<Restore Verification.png>)
 
----
 
 #### Screenshot 28 — Persistence After Down/Up Cycle
 
@@ -380,7 +377,6 @@ Do not use `docker compose down -v`.
 
 ![alt text](<Persistence After Down and Up Cycle 2.png>)
 
----
 
 #### Screenshot 29 — Persistence and Backup Document
 
@@ -394,7 +390,6 @@ Include the backup plan and restore procedure.
 
 ![alt text](<Persistence and Backup Document.png>)
 
----
 
 # Task 6 — Configure Logging and Observability
 
@@ -414,7 +409,6 @@ Add a screenshot showing:
 
 ![alt text](<Logging Configuration.png>)
 
----
 
 #### Screenshot 31 — Persistent Proxy Logs and Backend Logs
 
@@ -425,7 +419,6 @@ Add a terminal screenshot showing:
 
 ![alt text](<Persistent Proxy Logs and Backend Logs.png>)
 
----
 
 ### Notes
 
@@ -436,7 +429,6 @@ Write a short note covering:
 - How backend logs are viewed
 - Whether JSON or standard text logs were used
 - Why passwords, tokens, headers, and database connection strings must not appear in logs
-
 
 
 1.Selected Reverse Proxy
@@ -460,7 +452,6 @@ Standard timestamped text logs were used instead of JSON. The Nginx access log r
 Passwords, authentication tokens, authorization headers, session identifiers and database connection strings must never appear in application or proxy logs. Exposing these values could allow unauthorized access to the application, database or user accounts.
 Logs should contain only the operational information required for troubleshooting, monitoring and security analysis.
 
----
 
 # Task 7 — Deploy and Verify the Stack on a Cloud VM
 
@@ -480,7 +471,6 @@ Add a cloud-console screenshot showing:
 
 ![alt text](<VM Public IP and Inbound Rules.png>)
 
----
 
 #### Screenshot 33 — Cloud VM Stack Verification
 
@@ -492,7 +482,6 @@ Add a VM terminal screenshot showing:
 
 ![alt text](<Cloud VM Stack Verification.png>)
 
----
 
 #### Screenshot 34 — EpicBook Application on Cloud VM
 
@@ -502,7 +491,6 @@ Add your full name as a clear caption below the screenshot.
 
 ![alt text](<EpicBook Application on Cloud VM.png>)
 
----
 
 ### Notes
 
@@ -525,7 +513,7 @@ Security rules configured:
 Application and API verification: The EpicBook application loaded successfully through the EC2 public IP address. The /health endpoint and /api/cart backend API returned successful HTTP responses through the Nginx reverse proxy.
 
 The frontend, backend, and database communicate internally through Docker Compose networks. Only the reverse proxy is exposed publicly, providing a controlled entry point to the application.
----
+
 
 # Task 8 — Automate Deployment with CI/CD (Optional)
 
@@ -539,8 +527,7 @@ Optionally automate image build, image push, and deployment through GitHub Actio
 
 Add a screenshot showing a successful pipeline run with build, image push, deployment, and verification stages.
 
-Add your screenshot here.
-
+Optional question was not attempted
 ---
 
 ### Optional Notes
@@ -574,7 +561,6 @@ Add a terminal screenshot showing:
 
 ![alt text](<Backend Failure and Recovery.png>)
 
----
 
 #### Screenshot 36 — Database Failure and Recovery
 
@@ -588,7 +574,7 @@ Add a terminal screenshot showing:
 ![alt text](<Database Failure and Recovery.png>)
 
 ![alt text](<Database Failure and Recovery 2.png>)
----
+
 
 ### Notes
 
@@ -601,7 +587,7 @@ Write a short operations runbook covering:
 - What to check when the application returns an error
 - Results of backend and database reliability tests
 
- EpicBook Operations Runbook
+EpicBook Operations Runbook
 
 1.Start and Stop the Stack
 
